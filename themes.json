@@ -11,6 +11,14 @@
         "ElisePlano":{
             "img": "ElisePlano.jpg",
             "downloads": "[ElisePlano.json, ElisePlano.jpg, Dosis-Bold.otf, Dosis-Book.ttf, , Plano/weathericons]"
+        },
+        "EliseDualGradient":{
+            "img": "EliseDualGradient.jpg",
+            "downloads": "[EliseDualGradient.json, EliseDualGradient.jpg, report.otf, BetterSignature.otf, Impulse/weathericons]"
+        },
+        "EliseBunny":{
+            "img": "EliseBunny.jpg",
+            "downloads": "[EliseBunny.json, EliseBunny.jpg, CaviarDreams.ttf, climacut/weathericons]"
         }
     }
 }
