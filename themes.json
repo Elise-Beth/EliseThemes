@@ -7,6 +7,10 @@
         "EliseHour":{
             "img": "EliseHour.jpg",
             "downloads": "[EliseHour.json, EliseHour.jpg, OverstabilityDemoRegular.ttf, Champagne & Limousines.ttf, Disclaimer-Classic.otf, tick/weathericons]"
+         },
+        "ElisePlano":{
+            "img": "ElisePlano.jpg",
+            "downloads": "[ElisePlano.json, ElisePlano.jpg, Dosis-Bold.otf, Dosis-Book.ttf, , Plano/weathericons]"
         }
     }
 }
