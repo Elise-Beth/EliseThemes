@@ -19,6 +19,10 @@
         "EliseBunny":{
             "img": "EliseBunny.jpg",
             "downloads": "[EliseBunny.json, EliseBunny.jpg, CaviarDreams.ttf, climacut/weathericons]"
+        },
+        "EliseBlur":{
+            "img": "EliseBlur.jpg",
+            "downloads": "[EliseBlur.json, EliseBlur.jpg, gothicregular.otf, Signatrue.otf, tick/weathericons]"
         }
     }
 }
