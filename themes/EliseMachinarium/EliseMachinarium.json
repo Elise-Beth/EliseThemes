@@ -1,0 +1,512 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "userInteractionEnabled" : "NO",
+      "height" : "screen_height",
+      "x" : "0"
+    },
+    "order" : [
+      "EliseLayer2",
+      "stat",
+      "body2",
+      "time1",
+      "icon",
+      "time2"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "EliseLayer2" : {
+        "frame" : {
+          "y" : "0",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "contentMode" : "scaleAspectFit",
+        "imageURL" : "EliseLayer2.png",
+        "type" : "UIImageView"
+      },
+      "time1" : {
+        "rotate" : "0",
+        "blurColor" : "dark",
+        "blurAlpha" : "0",
+        "frame" : {
+          "y" : "110",
+          "x" : "center",
+          "width" : "420",
+          "height" : "70"
+        },
+        "children" : {
+          "time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "32",
+              "x" : "0",
+              "width" : "420",
+              "height" : "70"
+            },
+            "kerning" : "-4",
+            "backgroundColor" : "rgba(253, 251, 198, 0.0)",
+            "textColor" : "rgba(129, 104, 81, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : "0",
+            "fontSize" : "80",
+            "fontName" : "Jugend-1896.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "0",
+              "x" : "2",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "scale" : "0"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "150",
+          "x" : "center",
+          "width" : "100",
+          "height" : "100"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "htc"
+      },
+      "body2" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "FB~0",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "120"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "10",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Eva-Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          },
+          "bat_percent" : {
+            "borderColor" : "rgba(185, 184, 159, 0.0)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "50",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "battery [batterypercent]% [charging]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Eva-Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          },
+          "temp" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "30",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[temperature][degreeSymbol][temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Eva-Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          },
+          "bat" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "frame" : {
+              "y" : "70",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "50"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "borderWidth" : "0",
+            "children" : {
+              "shade1" : {
+                "rotate" : "0",
+                "backgroundColor" : "rgba(0, 0, 0, 1.0)",
+                "scale" : "0",
+                "frame" : {
+                  "y" : "18",
+                  "x" : "center",
+                  "width" : "300",
+                  "height" : "5"
+                },
+                "borderWidth" : "0",
+                "cornerRadius" : "5",
+                "boxShadow" : {
+                  "y" : "1",
+                  "radius" : "1",
+                  "x" : "1",
+                  "color" : "rgba(0, 0, 0, 1.0)"
+                },
+                "type" : "UIView",
+                "borderColor" : "rgba(255,255,255,0)",
+                "blurColor" : "dark",
+                "blurAlpha" : "0"
+              },
+              "battery" : {
+                "radius" : "4",
+                "lowColor" : "rgba(112, 75, 55, 1.0)",
+                "backColor" : "rgba(76, 80, 82, 1.0)",
+                "frame" : {
+                  "y" : "18",
+                  "x" : "center",
+                  "width" : "300",
+                  "height" : "5"
+                },
+                "type" : "BatteryBar",
+                "midColor" : "rgba(125, 105, 84, 1.0)",
+                "innerColor" : "rgba(167, 160, 138, 1.0)"
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "stat" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "20",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "160"
+        },
+        "children" : {
+          "SunsetB" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
+            "frame" : {
+              "y" : "40",
+              "x" : "345",
+              "width" : "80",
+              "height" : "40"
+            },
+            "children" : {
+              "Z" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "50",
+                  "width" : "30",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(236, 242, 165, 0.0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "Z",
+                "borderWidth" : "0",
+                "fontSize" : "25",
+                "fontName" : "climaiconFont.ttf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "sunset" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "0",
+                  "width" : "50",
+                  "height" : "35"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(209, 125, 156, 0.0)",
+                "textColor" : "rgba(255, 255, 255, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[sunset]",
+                "borderWidth" : "0",
+                "fontSize" : "13",
+                "fontName" : "Eva-Bold.ttf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "borderWidth" : "0",
+            "cornerRadius" : "5",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "scale" : "0"
+          },
+          "SunriseA" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
+            "frame" : {
+              "y" : "40",
+              "x" : "5",
+              "width" : "80",
+              "height" : "40"
+            },
+            "children" : {
+              "A" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "30",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(239, 203, 141, 0.0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "A",
+                "borderWidth" : "0",
+                "fontSize" : "25",
+                "fontName" : "climaiconFont.ttf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "sunrise" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "30",
+                  "width" : "50",
+                  "height" : "35"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(236, 242, 165, 0.0)",
+                "textColor" : "rgba(255, 255, 255, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[sunrise]",
+                "borderWidth" : "0",
+                "fontSize" : "13",
+                "fontName" : "Eva-Bold.ttf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              }
+            },
+            "borderWidth" : "0",
+            "cornerRadius" : "5",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "scale" : "0"
+          },
+          "time_of_day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "40",
+              "x" : "center",
+              "width" : "400",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "good [timeofday]",
+            "borderWidth" : "0",
+            "fontSize" : "13",
+            "fontName" : "Eva-Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          },
+          "day_month" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "85",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day] [month] [date] [year]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Eva-Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "0",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      },
+      "time2" : {
+        "rotate" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "scale" : "0",
+        "frame" : {
+          "y" : "180",
+          "x" : "center",
+          "width" : "420",
+          "height" : "70"
+        },
+        "children" : {
+          "time." : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "-38",
+              "x" : "0",
+              "width" : "420",
+              "height" : "70"
+            },
+            "kerning" : "-4",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(169, 160, 135, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : "0",
+            "fontSize" : "80",
+            "fontName" : "Jugend-1896.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "0",
+              "x" : "2",
+              "color" : "rgba(0, 0, 0, 0.5)"
+            }
+          }
+        },
+        "borderWidth" : "0",
+        "cornerRadius" : "5",
+        "borderColor" : "rgba(255,255,255,0)",
+        "type" : "UIView",
+        "blurColor" : "dark",
+        "blurAlpha" : "0"
+      }
+    }
+  }
+}
