@@ -1,0 +1,206 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "250",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "350"
+        },
+        "backgroundColor" : "rgba(222, 170, 190, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "wind" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "210",
+              "x" : "center",
+              "width" : "380",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(224, 235, 115, 0.0)",
+            "textColor" : "rgba(88, 121, 52, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Wind speed [windspeed][windunit] from [winddirection]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "Champagne & Limousines.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.7)",
+              "x" : "-1",
+              "radius" : "1"
+            }
+          },
+          "hilow" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "190",
+              "x" : "center",
+              "width" : "380",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(253, 249, 172, 0.0)",
+            "textColor" : "rgba(88, 121, 52, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "High [high][temptype] & low [low][temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "Champagne & Limousines.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.7)",
+              "x" : "-1",
+              "radius" : "1"
+            }
+          },
+          "data" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "300",
+              "x" : "center",
+              "width" : "380",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(178, 196, 246, 0.0)",
+            "textColor" : "rgba(88, 121, 52, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "battery [batterypercent]% [charging]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "Champagne & Limousines.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "-1",
+              "color" : "rgba(0, 0, 0, 0.7)"
+            }
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "102",
+              "x" : "center",
+              "width" : "300",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(231, 172, 138, 0.0)",
+            "kerning" : 4,
+            "textColor" : "rgba(88, 121, 52, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "fontSize" : "40",
+            "fontName" : "ALBA.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "-2",
+              "color" : "rgba(0, 0, 0, 0.7)"
+            },
+            "cornerRadius" : 0
+          },
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "250",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(198, 209, 71, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day] [month] [paddeddate]",
+            "borderWidth" : "0",
+            "fontSize" : "30",
+            "fontName" : "ALBA.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "-2",
+              "color" : "rgba(0, 0, 0, 0.7)"
+            }
+          },
+          "weather" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "170",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(244, 219, 144, 0.0)",
+            "textColor" : "rgba(88, 121, 52, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition] outside & [temperature][temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "20",
+            "fontName" : "Champagne & Limousines.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.7)",
+              "x" : "-1",
+              "radius" : "1"
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "23",
+              "x" : "175",
+              "width" : "80",
+              "height" : "80"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
