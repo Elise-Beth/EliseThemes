@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "children" : {
       "EliseDualGradient" : {
@@ -43,9 +43,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "condition" : {
@@ -67,9 +67,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "day" : {
@@ -91,9 +91,9 @@
             "fontName" : "BetterSignature.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "time_label" : {
@@ -108,10 +108,10 @@
               "height" : "80"
             },
             "textShadow" : {
-              "y" : 3,
-              "color" : "rgba(0,0,0,0)",
-              "x" : 0,
-              "radius" : 3
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0.7)"
             },
             "fontName" : "report.otf",
             "kerning" : 4,
@@ -138,9 +138,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "text" : {
@@ -162,9 +162,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "battery" : {
@@ -186,9 +186,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "feels" : {
@@ -210,9 +210,9 @@
             "fontName" : "report.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0.7)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0.7)"
             }
           },
           "icon" : {
@@ -237,17 +237,6 @@
             "type" : "UIView",
             "cornerRadius" : 10,
             "children" : {
-              "weather_icon1" : {
-                "frame" : {
-                  "y" : "33",
-                  "x" : "35",
-                  "width" : "35",
-                  "height" : "35"
-                },
-                "forecast" : "day1",
-                "type" : "WeatherIcon",
-                "iconSet" : "Pulse"
-              },
               "weather_icon3" : {
                 "frame" : {
                   "y" : "33",
@@ -269,15 +258,26 @@
                 "forecast" : "day2",
                 "type" : "WeatherIcon",
                 "iconSet" : "Pulse"
+              },
+              "weather_icon1" : {
+                "frame" : {
+                  "y" : "33",
+                  "x" : "35",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "forecast" : "day1",
+                "type" : "WeatherIcon",
+                "iconSet" : "Pulse"
               }
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
