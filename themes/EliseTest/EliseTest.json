@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "userInteractionEnabled" : "NO",
       "height" : "screen_height",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "body"
@@ -60,7 +60,7 @@
                 "textStyle" : "none",
                 "textAlignment" : "NSTextAlignmentCenter",
                 "frame" : {
-                  "y" : "0",
+                  "y" : "-10",
                   "x" : "0",
                   "width" : "400",
                   "height" : "85"
@@ -77,17 +77,17 @@
                 "fontName" : "astrud.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 1.0)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 1.0)"
+                  "radius" : "3"
                 }
               }
             },
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             },
             "cornerRadius" : "5",
             "blurColor" : "0"
@@ -97,7 +97,7 @@
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "195",
+              "y" : "185",
               "x" : "center",
               "width" : "220",
               "height" : "100"
@@ -114,9 +114,9 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             }
           },
           "date" : {
@@ -141,17 +141,17 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "2",
               "x" : "0",
-              "radius" : "2"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
