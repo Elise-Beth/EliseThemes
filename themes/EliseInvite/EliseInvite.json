@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
     },
     "children" : {
       "body" : {
@@ -25,31 +25,31 @@
         "gradientImage" : "none",
         "borderWidth" : "0",
         "children" : {
-          "tech" : {
+          "cond" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "200",
-              "x" : "0",
-              "width" : "screen_width",
-              "height" : "40"
+              "y" : "120",
+              "x" : "center",
+              "width" : "310",
+              "height" : "470"
             },
             "kerning" : "0",
             "backgroundColor" : "rgba(255,255,255,0)",
-            "textColor" : "rgba(251, 230, 212, 1.0)",
+            "textColor" : "rgba(206, 162, 89, 1.0)",
             "type" : "UILabel",
-            "numberOfLines" : "1",
-            "data" : "[day2condition] tomorrow",
+            "numberOfLines" : "10",
+            "data" : "The weather outside is [condition] with a temperature of [temperature][temptype], it feels like [feelslike][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
             "borderWidth" : "0",
             "gradientImage" : "none",
-            "fontSize" : "20",
-            "fontName" : "Neutra.otf",
+            "fontSize" : "33",
+            "fontName" : "Darleston.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "0"
             }
           },
           "icon" : {
@@ -84,36 +84,37 @@
             "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             },
             "cornerRadius" : 0
           },
-          "condition_1" : {
+          "tech" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "140",
-              "x" : "center",
-              "width" : "310",
-              "height" : "470"
+              "y" : "200",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
             },
             "kerning" : "0",
-            "backgroundColor" : "rgba(107, 109, 114, 0.0)",
-            "textColor" : "rgba(132, 96, 53, 1.0)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(251, 230, 212, 1.0)",
             "type" : "UILabel",
-            "numberOfLines" : "10",
-            "data" : "The weather outside is [condition] with a temperature of [temperature][temptype], it feels like [feelslike][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
+            "numberOfLines" : "1",
+            "data" : "[day2condition] tomorrow",
             "borderWidth" : "0",
-            "fontSize" : "35",
-            "fontName" : "Darleston.otf",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "date" : {
@@ -137,17 +138,17 @@
             "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
