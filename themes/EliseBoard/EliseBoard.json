@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "userInteractionEnabled" : "NO",
-      "height" : "screen_height",
-      "x" : "0"
+      "height" : "screen_height"
     },
     "children" : {
       "body" : {
@@ -17,7 +17,7 @@
           "y" : "150",
           "x" : "0",
           "width" : "screen_width",
-          "height" : "350"
+          "height" : "550"
         },
         "backgroundColor" : "rgba(255, 255, 255, 0.0)",
         "blurAlpha" : "0",
@@ -45,9 +45,9 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.5)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)"
+              "radius" : "0"
             }
           },
           "info" : {
@@ -71,10 +71,21 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.5)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)"
+              "radius" : "0"
             }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "382",
+              "x" : "FR~56",
+              "width" : "120",
+              "height" : "120"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
           },
           "year" : {
             "borderColor" : "rgba(255,255,255,1)",
@@ -97,9 +108,9 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 0.5)"
             }
           },
           "date item" : {
@@ -123,9 +134,9 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 0.5)"
             }
           },
           "time_label" : {
@@ -148,32 +159,21 @@
             "fontName" : "arista.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 0.5)"
             },
             "cornerRadius" : 0
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
-      },
-      "icon" : {
-        "frame" : {
-          "y" : "FB~273",
-          "x" : "FR~56",
-          "width" : "120",
-          "height" : "120"
-        },
-        "forecast" : "none",
-        "type" : "WeatherIcon",
-        "iconSet" : "Plano"
       },
       "hello_" : {
         "borderColor" : "rgba(255,255,255,1)",
@@ -196,9 +196,9 @@
         "fontName" : "arista.otf",
         "textShadow" : {
           "y" : "1",
-          "radius" : "0",
+          "color" : "rgba(0, 0, 0, 0.5)",
           "x" : "1",
-          "color" : "rgba(0, 0, 0, 0.5)"
+          "radius" : "0"
         }
       },
       "time_of_day" : {
@@ -222,9 +222,9 @@
         "fontName" : "arista.otf",
         "textShadow" : {
           "y" : "1",
-          "color" : "rgba(0, 0, 0, 0.5)",
+          "radius" : "0",
           "x" : "1",
-          "radius" : "0"
+          "color" : "rgba(0, 0, 0, 0.5)"
         }
       }
     }
