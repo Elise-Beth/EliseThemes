@@ -1,0 +1,163 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "day",
+      "body"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "160",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "300"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "children" : {
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "120",
+              "x" : "center",
+              "width" : "350",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(86, 87, 106, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "2",
+            "data" : "It’s [condition] outside and the temperature is around [temperature][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "bikoregular.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "hello" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "35",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(86, 87, 106, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Hello, [devicename]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "bikoregular.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "210",
+              "x" : "center",
+              "width" : "65",
+              "height" : "65"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "GoogleNow"
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "50",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "0",
+            "textColor" : "rgba(203, 171, 143, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSize" : "70",
+            "fontName" : "Suissnord.otf",
+            "textShadow" : {
+              "y" : 3,
+              "radius" : 3,
+              "x" : 0,
+              "color" : "rgba(0,0,0,0)"
+            },
+            "cornerRadius" : 0
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "270",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "150"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(134, 118, 118, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortday]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "150",
+        "fontName" : "astrud.otf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        }
+      }
+    }
+  }
+}
