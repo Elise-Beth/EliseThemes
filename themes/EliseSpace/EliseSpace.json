@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "month",
@@ -39,9 +39,9 @@
         "fontName" : "NewShape-Book.ttf",
         "textShadow" : {
           "y" : "1",
-          "color" : "rgba(0, 0, 0, 1.0)",
+          "radius" : "1",
           "x" : "1",
-          "radius" : "1"
+          "color" : "rgba(0, 0, 0, 1.0)"
         }
       },
       "time" : {
@@ -66,9 +66,9 @@
         "fontName" : "Disclaimer-Classic.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0, 0, 0, 1.0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0, 0, 0, 1.0)"
         }
       },
       "icon" : {
@@ -81,59 +81,6 @@
         "forecast" : "none",
         "type" : "WeatherIcon",
         "iconSet" : "Cikukua"
-      },
-      "month" : {
-        "borderColor" : "rgba(255,255,255,1)",
-        "textStyle" : "none",
-        "textAlignment" : "NSTextAlignmentCenter",
-        "frame" : {
-          "y" : "center",
-          "x" : "center",
-          "width" : "screen_width",
-          "height" : "300"
-        },
-        "kerning" : "0",
-        "backgroundColor" : "rgba(255,255,255,0)",
-        "textColor" : "rgba(36, 36, 36, 1.0)",
-        "type" : "UILabel",
-        "numberOfLines" : "1",
-        "data" : "[shortmonth]",
-        "borderWidth" : "0",
-        "gradientImage" : "none",
-        "fontSize" : "280",
-        "fontName" : "BillionStars_PersonalUse.otf",
-        "textShadow" : {
-          "y" : "1",
-          "color" : "rgba(0, 0, 0, 1.0)",
-          "x" : "0",
-          "radius" : "1"
-        }
-      },
-      "condition_1" : {
-        "borderColor" : "rgba(255,255,255,1)",
-        "textStyle" : "none",
-        "textAlignment" : "NSTextAlignmentCenter",
-        "frame" : {
-          "y" : "410",
-          "x" : "center",
-          "width" : "250",
-          "height" : "150"
-        },
-        "kerning" : "0",
-        "backgroundColor" : "rgba(244, 219, 179, 0.0)",
-        "textColor" : "rgba(255, 255, 255, 0.7)",
-        "type" : "UILabel",
-        "numberOfLines" : "6",
-        "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection].",
-        "borderWidth" : "0",
-        "fontSize" : "11",
-        "fontName" : "NewShape-Book.ttf",
-        "textShadow" : {
-          "y" : "1",
-          "color" : "rgba(0, 0, 0, 0.5)",
-          "x" : "1",
-          "radius" : "0"
-        }
       },
       "day" : {
         "borderColor" : "rgba(255,255,255,1)",
@@ -157,9 +104,62 @@
         "fontName" : "Disclaimer-Classic.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0, 0, 0, 1.0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0, 0, 0, 1.0)"
+        }
+      },
+      "condition_1" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "415",
+          "x" : "center",
+          "width" : "250",
+          "height" : "150"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(244, 219, 179, 0.0)",
+        "textColor" : "rgba(255, 255, 255, 0.7)",
+        "type" : "UILabel",
+        "numberOfLines" : "6",
+        "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection].",
+        "borderWidth" : "0",
+        "fontSize" : "11",
+        "fontName" : "NewShape-Book.ttf",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "0",
+          "x" : "1",
+          "color" : "rgba(0, 0, 0, 0.5)"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "center",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "300"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(36, 36, 36, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[shortmonth]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "280",
+        "fontName" : "BillionStars_PersonalUse.otf",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.0)"
         }
       }
     }
