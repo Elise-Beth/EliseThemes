@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width"
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "time",
@@ -23,7 +23,7 @@
           "width" : "screen_width",
           "height" : "80"
         },
-        "kerning" : "0",
+        "kerning" : "-1",
         "backgroundColor" : "rgba(255, 255, 255, 0.0)",
         "textColor" : "rgba(131, 122, 104, 1.0)",
         "type" : "UILabel",
@@ -31,7 +31,7 @@
         "data" : "[textTime]",
         "borderWidth" : "0",
         "gradientImage" : "Image15.png",
-        "fontSize" : "65",
+        "fontSize" : "60",
         "fontName" : "astrud.otf",
         "textShadow" : {
           "y" : "3",
