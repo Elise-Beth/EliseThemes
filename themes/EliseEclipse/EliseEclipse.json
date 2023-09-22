@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width"
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "body"
@@ -126,9 +126,9 @@
             "fontName" : "weathersunday.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "radius" : "3"
+              "radius" : "1"
             }
           },
           "icon1" : {
@@ -140,7 +140,7 @@
             },
             "forecast" : "day2",
             "type" : "WeatherIcon",
-            "iconSet" : "HTC11"
+            "iconSet" : "OrangeBlack"
           },
           "date" : {
             "borderColor" : "rgba(255,255,255,1)",
@@ -229,7 +229,7 @@
             },
             "forecast" : "none",
             "type" : "WeatherIcon",
-            "iconSet" : "HTC11"
+            "iconSet" : "OrangeBlack"
           }
         },
         "boxShadow" : {
