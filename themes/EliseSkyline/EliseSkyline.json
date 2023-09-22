@@ -1,0 +1,271 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "children" : {
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "480",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "200"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "children" : {
+          "rain" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "113",
+              "x" : "FR~30",
+              "width" : "200",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(41, 23, 21, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "The chance of rain is [precip]%",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "bariolbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "55",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(101, 33, 31, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "40",
+            "fontName" : "kanji.otf",
+            "textShadow" : {
+              "y" : "5",
+              "color" : "rgba(71, 71, 71, 0.9)",
+              "x" : "17",
+              "radius" : "0"
+            }
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "113",
+              "x" : "30",
+              "width" : "300",
+              "height" : "40"
+            },
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "kerning" : "0",
+            "textColor" : "rgba(41, 23, 21, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "bariolbold.otf",
+            "textShadow" : {
+              "y" : 3,
+              "color" : "rgba(0,0,0,0)",
+              "x" : 0,
+              "radius" : 3
+            },
+            "cornerRadius" : 0
+          },
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "95",
+              "x" : "30",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(41, 23, 21, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [date]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "bariolbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "forecast" : {
+            "frame" : {
+              "y" : "115",
+              "x" : "-40",
+              "width" : "298",
+              "height" : "100"
+            },
+            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "type" : "UIView",
+            "cornerRadius" : 10,
+            "children" : {
+              "weather_icon5" : {
+                "frame" : {
+                  "y" : "30",
+                  "x" : "130",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "forecast" : "day5",
+                "type" : "WeatherIcon",
+                "iconSet" : "Plano"
+              },
+              "weather_icon3" : {
+                "frame" : {
+                  "y" : "30",
+                  "x" : "90",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "Plano"
+              },
+              "weather_icon4" : {
+                "frame" : {
+                  "y" : "30",
+                  "x" : "110",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "forecast" : "day4",
+                "type" : "WeatherIcon",
+                "iconSet" : "Plano"
+              },
+              "weather_icon2" : {
+                "frame" : {
+                  "y" : "30",
+                  "x" : "70",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "forecast" : "day2",
+                "type" : "WeatherIcon",
+                "iconSet" : "Plano"
+              }
+            }
+          },
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "95",
+              "x" : "FR~30",
+              "width" : "200",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(41, 23, 21, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It’s [condition] outside with [temperature][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "bariolbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "feels" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "130",
+              "x" : "FR~30",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(41, 23, 21, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It feels like [feelslike][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "12",
+            "fontName" : "bariolbold.otf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "53",
+              "x" : "FR~30",
+              "width" : "48",
+              "height" : "48"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
