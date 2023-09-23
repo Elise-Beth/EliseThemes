@@ -1,0 +1,244 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "395",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textTime]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "Neutra.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      },
+      "ios" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "850",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "iOS [devicefirmware]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "15",
+        "fontName" : "Neutra.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "685",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(169, 198, 213, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "20",
+        "fontName" : "HelloLovely.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "825",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(169, 198, 213, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month] [dateordinal]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "20",
+        "fontName" : "HelloLovely.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      },
+      "forecast" : {
+        "frame" : {
+          "y" : "695",
+          "x" : "FR~84",
+          "width" : "298",
+          "height" : "100"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+        "type" : "UIView",
+        "cornerRadius" : 10,
+        "children" : {
+          "weather_icon5" : {
+            "frame" : {
+              "y" : "30",
+              "x" : "205",
+              "width" : "25",
+              "height" : "25"
+            },
+            "forecast" : "day5",
+            "type" : "WeatherIcon",
+            "iconSet" : "Smr"
+          },
+          "weather_icon3" : {
+            "frame" : {
+              "y" : "30",
+              "x" : "140",
+              "width" : "25",
+              "height" : "25"
+            },
+            "forecast" : "day3",
+            "type" : "WeatherIcon",
+            "iconSet" : "Smr"
+          },
+          "weather_icon4" : {
+            "frame" : {
+              "y" : "30",
+              "x" : "170",
+              "width" : "25",
+              "height" : "25"
+            },
+            "forecast" : "day4",
+            "type" : "WeatherIcon",
+            "iconSet" : "Smr"
+          },
+          "weather_icon2" : {
+            "frame" : {
+              "y" : "30",
+              "x" : "110",
+              "width" : "25",
+              "height" : "25"
+            },
+            "forecast" : "day2",
+            "type" : "WeatherIcon",
+            "iconSet" : "Smr"
+          }
+        }
+      },
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "740",
+          "x" : "center",
+          "width" : "230",
+          "height" : "100"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "5",
+        "data" : "The current temperature is [temperature][temptype], it’s [condition] with a wind speed of [windspeed][windunit]. Your battery is at [batterypercent]% and [ischarging]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "15",
+        "fontName" : "Neutra.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "430",
+          "x" : "center",
+          "width" : "60",
+          "height" : "60"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Smr"
+      },
+      "name" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "370",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(169, 198, 213, 1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Hello [devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "HelloLovely.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "1"
+        }
+      }
+    }
+  }
+}
