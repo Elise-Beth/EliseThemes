@@ -1,0 +1,217 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "bg"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "bg" : {
+        "scale" : "0",
+        "borderColor" : "rgba(143, 154, 159, 1.0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "170",
+          "x" : "-20",
+          "width" : "420",
+          "height" : "330"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 0.5)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "1",
+        "children" : {
+          "wind" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "130",
+              "x" : "-30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "There’s a [windspeed][windunit] wind from [winddirection]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "16",
+            "fontName" : "Neutra.otf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "-20",
+              "x" : "-35",
+              "width" : "screen_width",
+              "height" : "170"
+            },
+            "kerning" : "-2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "textColor" : "rgba(140, 154, 160, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "90",
+            "fontName" : "Rebeqa-Bold.otf",
+            "textShadow" : {
+              "y" : "-1",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "0.5"
+            }
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "200",
+              "x" : "-30",
+              "width" : "screen_width",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "0",
+            "textColor" : "rgba(140, 154, 160, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour]:[minute]",
+            "borderWidth" : 0,
+            "gradientImage" : "none",
+            "fontSize" : "60",
+            "fontName" : "Rebeqa-Bold.otf",
+            "textShadow" : {
+              "y" : "-1",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "0.5"
+            },
+            "cornerRadius" : 0
+          },
+          "month" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "270",
+              "x" : "-30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [date]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "16",
+            "fontName" : "Neutra.otf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "110",
+              "x" : "-30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It’s [condition] outside with [temperature][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "16",
+            "fontName" : "Neutra.otf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "feels" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentRight",
+            "frame" : {
+              "y" : "150",
+              "x" : "-30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It feels like [feelslike][temptype] with [humidity]% of humidity",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "16",
+            "fontName" : "Neutra.otf",
+            "textShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "202",
+              "x" : "245",
+              "width" : "65",
+              "height" : "65"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          }
+        },
+        "boxShadow" : {
+          "y" : "5",
+          "color" : "rgba(0, 0, 0, 0.7)",
+          "x" : "5",
+          "radius" : "5"
+        },
+        "cornerRadius" : "25",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
