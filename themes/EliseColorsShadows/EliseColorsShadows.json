@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "children" : {
       "Body" : {
@@ -24,93 +24,10 @@
         "type" : "UIView",
         "borderWidth" : "0",
         "children" : {
-          "time_of_day" : {
-            "borderColor" : "rgba(255, 255, 255, 1.0)",
-            "textStyle" : "none",
-            "textAlignment" : "NSTextAlignmentCenter",
-            "frame" : {
-              "y" : "285",
-              "x" : "center",
-              "width" : "400",
-              "height" : "40"
-            },
-            "kerning" : "0",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "textColor" : "rgba(250, 227, 216, 1.0)",
-            "type" : "UILabel",
-            "numberOfLines" : "1",
-            "data" : "Good [timeofday]",
-            "borderWidth" : "0",
-            "fontSize" : "25",
-            "fontName" : "ALBA.otf",
-            "textShadow" : {
-              "y" : "3",
-              "color" : "rgba(0, 0, 0, 0.6)",
-              "x" : "0",
-              "radius" : "3"
-            }
-          },
-          "forecast" : {
-            "frame" : {
-              "y" : "215",
-              "x" : "FR~36",
-              "width" : "300",
-              "height" : "100"
-            },
-            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
-            "type" : "UIView",
-            "cornerRadius" : 10,
-            "children" : {
-              "weather_icon2" : {
-                "frame" : {
-                  "y" : "27",
-                  "x" : "65",
-                  "width" : "35",
-                  "height" : "35"
-                },
-                "forecast" : "day2",
-                "type" : "WeatherIcon",
-                "iconSet" : "gradient"
-              },
-              "weather_icon4" : {
-                "frame" : {
-                  "y" : "27",
-                  "x" : "145",
-                  "width" : "35",
-                  "height" : "35"
-                },
-                "forecast" : "day4",
-                "type" : "WeatherIcon",
-                "iconSet" : "gradient"
-              },
-              "weather_icon3" : {
-                "frame" : {
-                  "y" : "27",
-                  "x" : "105",
-                  "width" : "35",
-                  "height" : "35"
-                },
-                "forecast" : "day3",
-                "type" : "WeatherIcon",
-                "iconSet" : "gradient"
-              }
-            }
-          },
-          "icon" : {
-            "frame" : {
-              "y" : "85",
-              "x" : "center",
-              "width" : "65",
-              "height" : "65"
-            },
-            "forecast" : "none",
-            "type" : "WeatherIcon",
-            "iconSet" : "gradient"
-          },
           "time" : {
             "rotate" : "0",
-            "blurColor" : "dark",
-            "blurAlpha" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "scale" : "0",
             "frame" : {
               "y" : "40",
               "x" : "center",
@@ -139,9 +56,9 @@
                 "fontName" : "ALBA.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               },
               "min" : {
@@ -165,9 +82,9 @@
                 "fontName" : "ALBA.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               },
               "hour" : {
@@ -191,9 +108,9 @@
                 "fontName" : "ALBA.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               }
             },
@@ -201,13 +118,96 @@
             "cornerRadius" : "0",
             "borderColor" : "rgba(255,255,255,0)",
             "type" : "UIView",
-            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-            "scale" : "0"
+            "blurColor" : "dark",
+            "blurAlpha" : "0"
+          },
+          "forecast" : {
+            "frame" : {
+              "y" : "215",
+              "x" : "center",
+              "width" : "150",
+              "height" : "100"
+            },
+            "backgroundColor" : "rgba(239, 201, 178, 0.0)",
+            "type" : "UIView",
+            "cornerRadius" : 10,
+            "children" : {
+              "weather_icon3" : {
+                "frame" : {
+                  "y" : "27",
+                  "x" : "center",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "gradient"
+              },
+              "weather_icon2" : {
+                "frame" : {
+                  "y" : "27",
+                  "x" : "5",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "forecast" : "day2",
+                "type" : "WeatherIcon",
+                "iconSet" : "gradient"
+              },
+              "weather_icon4" : {
+                "frame" : {
+                  "y" : "27",
+                  "x" : "FR~5",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "forecast" : "day4",
+                "type" : "WeatherIcon",
+                "iconSet" : "gradient"
+              }
+            }
+          },
+          "icon" : {
+            "frame" : {
+              "y" : "85",
+              "x" : "center",
+              "width" : "65",
+              "height" : "65"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "gradient"
+          },
+          "time_of_day" : {
+            "borderColor" : "rgba(255, 255, 255, 1.0)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "285",
+              "x" : "center",
+              "width" : "400",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(250, 227, 216, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Good [timeofday]",
+            "borderWidth" : "0",
+            "fontSize" : "25",
+            "fontName" : "ALBA.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 0.6)"
+            }
           },
           "text" : {
             "rotate" : "0",
-            "backgroundColor" : "rgba(194, 194, 194, 0.0)",
-            "scale" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
             "frame" : {
               "y" : "155",
               "x" : "center",
@@ -236,9 +236,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               },
               "text3" : {
@@ -262,9 +262,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "condition" : {
@@ -288,9 +288,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 }
               },
               "sunset" : {
@@ -314,9 +314,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.6)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0, 0, 0, 0.6)"
                 }
               },
               "sunrise" : {
@@ -340,9 +340,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.6)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0, 0, 0, 0.6)"
                 }
               },
               "temp" : {
@@ -366,9 +366,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               },
               "text2" : {
@@ -392,9 +392,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 }
               },
               "hi_lo" : {
@@ -418,9 +418,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0, 0, 0, 0.6)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.6)"
+                  "radius" : "3"
                 }
               },
               "text4" : {
@@ -444,9 +444,9 @@
                 "fontName" : "abeatbykai.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               }
             },
@@ -454,15 +454,15 @@
             "cornerRadius" : "5",
             "borderColor" : "rgba(255,255,255,0)",
             "type" : "UIView",
-            "blurColor" : "dark",
-            "blurAlpha" : "0"
+            "backgroundColor" : "rgba(194, 194, 194, 0.0)",
+            "scale" : "0"
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"

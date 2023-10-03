@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "order" : [
       "body"
@@ -48,9 +48,9 @@
             "fontName" : "autograf.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.6)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.6)"
             }
           },
           "condition" : {
@@ -74,9 +74,9 @@
             "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "time" : {
@@ -100,9 +100,9 @@
             "fontName" : "astrud.otf",
             "textShadow" : {
               "y" : "6",
-              "radius" : "6",
+              "color" : "rgba(0, 0, 0, 0.7)",
               "x" : "6",
-              "color" : "rgba(0, 0, 0, 0.7)"
+              "radius" : "6"
             }
           },
           "humidity_wind" : {
@@ -126,9 +126,9 @@
             "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "text" : {
@@ -152,26 +152,37 @@
             "fontName" : "Neutra.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "3days" : {
             "frame" : {
               "y" : "490",
               "x" : "center",
-              "width" : "250",
+              "width" : "150",
               "height" : "100"
             },
-            "backgroundColor" : "rgba(215, 176, 147, 0.0)",
+            "backgroundColor" : "rgba(204, 178, 154, 0.0)",
             "type" : "UIView",
             "cornerRadius" : 10,
             "children" : {
+              "weather_icon3" : {
+                "frame" : {
+                  "y" : "27",
+                  "x" : "center",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              },
               "weather_icon2" : {
                 "frame" : {
                   "y" : "27",
-                  "x" : "65",
+                  "x" : "0",
                   "width" : "40",
                   "height" : "40"
                 },
@@ -182,22 +193,11 @@
               "weather_icon4" : {
                 "frame" : {
                   "y" : "27",
-                  "x" : "145",
+                  "x" : "FR~0",
                   "width" : "40",
                   "height" : "40"
                 },
                 "forecast" : "day4",
-                "type" : "WeatherIcon",
-                "iconSet" : "tick"
-              },
-              "weather_icon3" : {
-                "frame" : {
-                  "y" : "27",
-                  "x" : "105",
-                  "width" : "40",
-                  "height" : "40"
-                },
-                "forecast" : "day3",
                 "type" : "WeatherIcon",
                 "iconSet" : "tick"
               }
@@ -217,9 +217,9 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"

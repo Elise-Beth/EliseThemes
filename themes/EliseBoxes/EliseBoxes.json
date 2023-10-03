@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "order" : [
       "background",
@@ -52,9 +52,9 @@
             "borderWidth" : "3",
             "boxShadow" : {
               "y" : "5",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "5",
               "x" : "5",
-              "radius" : "5"
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "cornerRadius" : "15",
             "blurColor" : "dark"
@@ -77,9 +77,9 @@
             "borderWidth" : "3",
             "boxShadow" : {
               "y" : "-5",
-              "color" : "rgba(92, 92, 92, 1.0)",
+              "radius" : "5",
               "x" : "-5",
-              "radius" : "5"
+              "color" : "rgba(92, 92, 92, 1.0)"
             },
             "cornerRadius" : "15",
             "blurColor" : "dark"
@@ -87,11 +87,11 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(133, 133, 133, 0.0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(133, 133, 133, 0.0)"
         },
-        "cornerRadius" : "15",
+        "cornerRadius" : "0",
         "blurColor" : "dark"
       },
       "top_box" : {
@@ -146,9 +146,9 @@
                 "borderWidth" : "3",
                 "boxShadow" : {
                   "y" : "-5",
-                  "color" : "rgba(92, 92, 92, 1.0)",
+                  "radius" : "5",
                   "x" : "-5",
-                  "radius" : "5"
+                  "color" : "rgba(92, 92, 92, 1.0)"
                 },
                 "cornerRadius" : "15",
                 "blurColor" : "dark"
@@ -171,9 +171,9 @@
                 "borderWidth" : "3",
                 "boxShadow" : {
                   "y" : "5",
-                  "color" : "rgba(0, 0, 0, 1.0)",
+                  "radius" : "5",
                   "x" : "5",
-                  "radius" : "5"
+                  "color" : "rgba(0, 0, 0, 1.0)"
                 },
                 "cornerRadius" : "15",
                 "blurColor" : "dark"
@@ -181,9 +181,9 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(133, 133, 133, 0.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(133, 133, 133, 0.0)"
             },
             "cornerRadius" : "15",
             "blurColor" : "dark"
@@ -223,9 +223,9 @@
                 "borderWidth" : "0",
                 "boxShadow" : {
                   "y" : "-5",
-                  "color" : "rgba(112, 112, 112, 1.0)",
+                  "radius" : "5",
                   "x" : "-5",
-                  "radius" : "5"
+                  "color" : "rgba(112, 112, 112, 1.0)"
                 },
                 "cornerRadius" : "60",
                 "blurColor" : "dark"
@@ -248,9 +248,9 @@
                 "borderWidth" : "0",
                 "boxShadow" : {
                   "y" : "5",
-                  "color" : "rgba(0, 0, 0, 1.0)",
+                  "radius" : "5",
                   "x" : "5",
-                  "radius" : "5"
+                  "color" : "rgba(0, 0, 0, 1.0)"
                 },
                 "cornerRadius" : "60",
                 "blurColor" : "dark"
@@ -258,21 +258,21 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "cornerRadius" : "5",
+            "cornerRadius" : "0",
             "blurColor" : "dark"
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "cornerRadius" : "5",
+        "cornerRadius" : "0",
         "blurColor" : "dark"
       },
       "shad2" : {
@@ -293,9 +293,34 @@
         "borderWidth" : "0",
         "boxShadow" : {
           "y" : "2",
-          "color" : "rgba(112, 112, 112, 1.0)",
+          "radius" : "2",
           "x" : "2",
-          "radius" : "2"
+          "color" : "rgba(112, 112, 112, 1.0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "background" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "0",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "backgroundColor" : "rgba(35, 35, 35, 1.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -339,9 +364,9 @@
             "fontName" : "Steronite.ttf",
             "textShadow" : {
               "y" : "-1",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             }
           },
           "day" : {
@@ -366,9 +391,9 @@
             "fontName" : "Steronite.ttf",
             "textShadow" : {
               "y" : "-1",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             }
           },
           "week" : {
@@ -387,9 +412,9 @@
             "fontSize" : "15",
             "textShadow" : {
               "y" : "-1",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             },
             "fontName" : "Steronite.ttf",
             "cornerRadius" : "20",
@@ -417,9 +442,9 @@
             "fontName" : "Steronite.ttf",
             "textShadow" : {
               "y" : "-1",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             }
           },
           "condition_1" : {
@@ -443,9 +468,9 @@
             "fontName" : "Steronite.ttf",
             "textShadow" : {
               "y" : "-0.5",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             }
           },
           "icon" : {
@@ -481,17 +506,17 @@
             "fontName" : "Steronite.ttf",
             "textShadow" : {
               "y" : "-1",
-              "radius" : "0",
+              "color" : "rgba(255, 255, 255, 1.0)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 1.0)"
+              "radius" : "0"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -513,8 +538,8 @@
         "children" : {
           "shade1" : {
             "rotate" : "0",
-            "backgroundColor" : "rgba(0, 0, 0, 1.0)",
-            "scale" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
             "frame" : {
               "y" : "22",
               "x" : "center",
@@ -525,14 +550,14 @@
             "cornerRadius" : "5",
             "boxShadow" : {
               "y" : "2",
-              "radius" : "2",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "2",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "2"
             },
             "type" : "UIView",
             "borderColor" : "rgba(255,255,255,0)",
-            "blurColor" : "dark",
-            "blurAlpha" : "0"
+            "backgroundColor" : "rgba(0, 0, 0, 1.0)",
+            "scale" : "0"
           },
           "battery" : {
             "radius" : "2",
@@ -549,31 +574,6 @@
             "innerColor" : "rgba(239, 203, 154, 1.0)"
           }
         },
-        "boxShadow" : {
-          "y" : "3",
-          "color" : "rgba(0,0,0,0)",
-          "x" : "0",
-          "radius" : "3"
-        },
-        "cornerRadius" : "5",
-        "blurColor" : "dark"
-      },
-      "background" : {
-        "scale" : "0",
-        "borderColor" : "rgba(255,255,255,0)",
-        "rotate" : "0",
-        "actions" : "none",
-        "frame" : {
-          "y" : "0",
-          "x" : "center",
-          "width" : "screen_width",
-          "height" : "screen_height"
-        },
-        "backgroundColor" : "rgba(35, 35, 35, 1.0)",
-        "blurAlpha" : "0",
-        "type" : "UIView",
-        "gradientImage" : "none",
-        "borderWidth" : "0",
         "boxShadow" : {
           "y" : "3",
           "radius" : "3",

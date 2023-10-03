@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width"
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
     },
     "children" : {
       "stat" : {
@@ -189,18 +189,18 @@
           "forecast" : {
             "frame" : {
               "y" : "215",
-              "x" : "FR~85",
-              "width" : "298",
+              "x" : "center",
+              "width" : "200",
               "height" : "100"
             },
-            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "backgroundColor" : "rgba(244, 219, 179, 0.0)",
             "type" : "UIView",
             "cornerRadius" : 10,
             "children" : {
               "weather_icon5" : {
                 "frame" : {
                   "y" : "30",
-                  "x" : "210",
+                  "x" : "FR~15",
                   "width" : "35",
                   "height" : "35"
                 },
@@ -211,7 +211,7 @@
               "weather_icon3" : {
                 "frame" : {
                   "y" : "30",
-                  "x" : "center",
+                  "x" : "60",
                   "width" : "35",
                   "height" : "35"
                 },
@@ -222,7 +222,7 @@
               "weather_icon4" : {
                 "frame" : {
                   "y" : "30",
-                  "x" : "170",
+                  "x" : "105",
                   "width" : "35",
                   "height" : "35"
                 },
@@ -233,7 +233,7 @@
               "weather_icon2" : {
                 "frame" : {
                   "y" : "30",
-                  "x" : "90",
+                  "x" : "15",
                   "width" : "35",
                   "height" : "35"
                 },

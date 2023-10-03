@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "children" : {
       "body" : {
@@ -47,9 +47,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "time_label" : {
@@ -73,9 +73,9 @@
             "fontName" : "peach-sundress.otf",
             "textShadow" : {
               "y" : 3,
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : 3,
               "x" : 0,
-              "radius" : 3
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "cornerRadius" : 0
           },
@@ -101,28 +101,28 @@
             "fontName" : "peach-sundress.otf",
             "textShadow" : {
               "y" : 3,
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : 3,
               "x" : 0,
-              "radius" : 3
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "forecast" : {
             "frame" : {
-              "y" : "15",
-              "x" : "-30",
-              "width" : "300",
+              "y" : "5",
+              "x" : "35",
+              "width" : "150",
               "height" : "100"
             },
-            "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+            "backgroundColor" : "rgba(204, 178, 154, 0.0)",
             "type" : "UIView",
             "cornerRadius" : 10,
             "children" : {
               "weather_icon3" : {
                 "frame" : {
                   "y" : "27",
-                  "x" : "105",
-                  "width" : "30",
-                  "height" : "30"
+                  "x" : "center",
+                  "width" : "40",
+                  "height" : "40"
                 },
                 "forecast" : "day3",
                 "type" : "WeatherIcon",
@@ -131,9 +131,9 @@
               "weather_icon2" : {
                 "frame" : {
                   "y" : "27",
-                  "x" : "70",
-                  "width" : "30",
-                  "height" : "30"
+                  "x" : "10",
+                  "width" : "40",
+                  "height" : "40"
                 },
                 "forecast" : "day2",
                 "type" : "WeatherIcon",
@@ -142,9 +142,9 @@
               "weather_icon4" : {
                 "frame" : {
                   "y" : "27",
-                  "x" : "140",
-                  "width" : "30",
-                  "height" : "30"
+                  "x" : "FR~10",
+                  "width" : "40",
+                  "height" : "40"
                 },
                 "forecast" : "day4",
                 "type" : "WeatherIcon",
@@ -174,9 +174,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "icon" : {
@@ -212,17 +212,17 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"

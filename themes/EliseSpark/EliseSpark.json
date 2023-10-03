@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "blur",
@@ -17,8 +17,8 @@
       "date",
       "cond",
       "icon",
-      "forecast",
-      "time_of_day"
+      "time_of_day",
+      "forecast"
     ],
     "type" : "UIView",
     "children" : {
@@ -44,9 +44,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "box" : {
@@ -87,17 +87,17 @@
             "fontName" : "Signatrue.otf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -124,9 +124,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "ios" : {
@@ -151,9 +151,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "time_of_day" : {
@@ -178,9 +178,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "bat" : {
@@ -205,9 +205,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "date" : {
@@ -232,9 +232,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "blur" : {
@@ -254,9 +254,9 @@
         "borderWidth" : "0",
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "0",
         "blurColor" : "dark"
@@ -264,18 +264,18 @@
       "forecast" : {
         "frame" : {
           "y" : "550",
-          "x" : "FR~12",
-          "width" : "298",
+          "x" : "FR~45",
+          "width" : "200",
           "height" : "100"
         },
-        "backgroundColor" : "rgba(0, 0, 0, 0.0)",
+        "backgroundColor" : "rgba(244, 219, 179, 0.0)",
         "type" : "UIView",
         "cornerRadius" : 10,
         "children" : {
           "weather_icon5" : {
             "frame" : {
               "y" : "30",
-              "x" : "210",
+              "x" : "FR~15",
               "width" : "35",
               "height" : "35"
             },
@@ -286,7 +286,7 @@
           "weather_icon3" : {
             "frame" : {
               "y" : "30",
-              "x" : "center",
+              "x" : "60",
               "width" : "35",
               "height" : "35"
             },
@@ -297,7 +297,7 @@
           "weather_icon4" : {
             "frame" : {
               "y" : "30",
-              "x" : "170",
+              "x" : "105",
               "width" : "35",
               "height" : "35"
             },
@@ -308,7 +308,7 @@
           "weather_icon2" : {
             "frame" : {
               "y" : "30",
-              "x" : "90",
+              "x" : "15",
               "width" : "35",
               "height" : "35"
             },
@@ -340,9 +340,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         }
       },
       "icon" : {
