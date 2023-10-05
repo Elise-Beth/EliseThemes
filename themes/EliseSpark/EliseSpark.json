@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "blur",
@@ -44,9 +44,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "box" : {
@@ -55,8 +55,8 @@
         "rotate" : "-90",
         "frame" : {
           "y" : "420",
-          "x" : "-120",
-          "width" : "screen_width",
+          "x" : "FR~100",
+          "width" : "450",
           "height" : "200"
         },
         "backgroundColor" : "rgba(255, 255, 255, 0.0)",
@@ -72,7 +72,7 @@
             "frame" : {
               "y" : "0",
               "x" : "0",
-              "width" : "screen_width",
+              "width" : "450",
               "height" : "200"
             },
             "kerning" : "0",
@@ -87,19 +87,19 @@
             "fontName" : "Signatrue.otf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "3"
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
-        "cornerRadius" : "5",
+        "cornerRadius" : "0",
         "blurColor" : "dark"
       },
       "hilow" : {
@@ -124,9 +124,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "ios" : {
@@ -151,9 +151,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "time_of_day" : {
@@ -178,9 +178,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "bat" : {
@@ -205,9 +205,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "date" : {
@@ -232,9 +232,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "blur" : {
@@ -254,9 +254,9 @@
         "borderWidth" : "0",
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "0",
         "blurColor" : "dark"
@@ -340,9 +340,9 @@
         "fontName" : "Neutra Text Book.otf",
         "textShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         }
       },
       "icon" : {
