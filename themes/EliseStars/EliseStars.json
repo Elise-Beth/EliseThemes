@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "side_pannel",
@@ -23,7 +23,7 @@
         "actions" : "none",
         "frame" : {
           "y" : "center",
-          "x" : "343",
+          "x" : "FR~75",
           "width" : "10",
           "height" : "650"
         },
@@ -36,9 +36,9 @@
         "alpha" : "1",
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0, 0, 0, 1.0)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 1.0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -54,30 +54,31 @@
           "height" : "230"
         },
         "children" : {
-          "date" : {
+          "text" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "10",
-              "x" : "0",
-              "width" : "screen_width",
-              "height" : "45"
+              "y" : "150",
+              "x" : "center",
+              "width" : "300",
+              "height" : "40"
             },
-            "kerning" : "2",
-            "backgroundColor" : "rgba(231, 172, 138, 0.0)",
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
             "textColor" : "rgba(255,255,255,1.0)",
             "type" : "UILabel",
             "numberOfLines" : "1",
-            "data" : "[day] [month] [dateordinal]",
+            "data" : "Expected weather in the next days:",
             "borderWidth" : "0",
-            "fontSize" : "25",
-            "fontName" : "Rebeqa-Bold.otf",
+            "gradientImage" : "none",
+            "fontSize" : "15",
+            "fontName" : "Neutra Text Book.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.5)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)"
+              "radius" : "0"
             }
           },
           "forecast" : {
@@ -91,17 +92,6 @@
             "type" : "UIView",
             "cornerRadius" : 10,
             "children" : {
-              "weather_icon2" : {
-                "frame" : {
-                  "y" : "27",
-                  "x" : "0",
-                  "width" : "40",
-                  "height" : "40"
-                },
-                "forecast" : "day2",
-                "type" : "WeatherIcon",
-                "iconSet" : "OutlinedW"
-              },
               "weather_icon4" : {
                 "frame" : {
                   "y" : "27",
@@ -121,6 +111,17 @@
                   "height" : "40"
                 },
                 "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "OutlinedW"
+              },
+              "weather_icon2" : {
+                "frame" : {
+                  "y" : "27",
+                  "x" : "0",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "day2",
                 "type" : "WeatherIcon",
                 "iconSet" : "OutlinedW"
               }
@@ -147,36 +148,35 @@
             "fontName" : "Neutra Text Book.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.5)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)"
+              "radius" : "0"
             }
           },
-          "text" : {
+          "date" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
             "textAlignment" : "NSTextAlignmentCenter",
             "frame" : {
-              "y" : "150",
-              "x" : "center",
-              "width" : "300",
-              "height" : "40"
+              "y" : "10",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "45"
             },
-            "kerning" : "0",
-            "backgroundColor" : "rgba(255,255,255,0)",
+            "kerning" : "2",
+            "backgroundColor" : "rgba(231, 172, 138, 0.0)",
             "textColor" : "rgba(255,255,255,1.0)",
             "type" : "UILabel",
             "numberOfLines" : "1",
-            "data" : "Expected weather in the next days:",
+            "data" : "[day] [month] [dateordinal]",
             "borderWidth" : "0",
-            "gradientImage" : "none",
-            "fontSize" : "15",
-            "fontName" : "Neutra Text Book.otf",
+            "fontSize" : "25",
+            "fontName" : "Rebeqa-Bold.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.5)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 0.5)"
+              "radius" : "0"
             }
           }
         },
@@ -191,7 +191,7 @@
         "pauseImage" : "none",
         "frame" : {
           "y" : "0",
-          "x" : "-80",
+          "x" : "FR~80",
           "width" : "screen_width",
           "height" : "screen_height"
         },
@@ -235,9 +235,9 @@
         "fontName" : "Rebeqa-Bold.otf",
         "textShadow" : {
           "y" : "1",
-          "radius" : "0",
+          "color" : "rgba(0, 0, 0, 0.5)",
           "x" : "1",
-          "color" : "rgba(0, 0, 0, 0.5)"
+          "radius" : "0"
         }
       }
     }
