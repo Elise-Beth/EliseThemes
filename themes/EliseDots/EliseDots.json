@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "children" : {
       "main_box" : {
@@ -17,8 +17,8 @@
         "frame" : {
           "y" : "center",
           "x" : "center",
-          "width" : "math(screen_width-80)",
-          "height" : "math(screen_height-650)"
+          "width" : "345",
+          "height" : "275"
         },
         "backgroundColor" : "rgba(24, 24, 30, 0.8)",
         "blurAlpha" : "0",
@@ -47,25 +47,99 @@
             "borderWidth" : "0",
             "alpha" : "1",
             "children" : {
-              "hello" : {
-                "pauseImage" : "none",
+              "apps" : {
+                "scale" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "rotate" : "0",
+                "actions" : "none",
                 "frame" : {
-                  "y" : "FB~265",
-                  "x" : "20",
-                  "width" : "50",
-                  "height" : "50"
+                  "y" : "FB~30",
+                  "x" : "FR~20",
+                  "width" : "125",
+                  "height" : "45"
                 },
-                "isAlbumArt" : "0",
-                "contentMode" : "scaleAspectFit",
+                "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                "blurAlpha" : "0",
+                "type" : "UIView",
+                "animation" : "none",
+                "gradientImage" : "none",
+                "borderWidth" : "0",
+                "alpha" : "1",
+                "children" : {
+                  "no move app 2" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "0.5",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.0)",
+                    "frame" : {
+                      "y" : "FB~5",
+                      "x" : "center",
+                      "width" : "35",
+                      "height" : "35"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.MobileStore",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "Boots_AlertBadgeBlk.png"
+                  },
+                  "no move app 3" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "0.5",
+                    "scale" : "0",
+                    "badgeImage" : "Boots_AlertBadgeBlk.png",
+                    "frame" : {
+                      "y" : "FB~5",
+                      "x" : "FR~0",
+                      "width" : "35",
+                      "height" : "35"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.atebits.Tweetie2",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "badgeImageX" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.0)"
+                  },
+                  "no_move_app" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "0.5",
+                    "scale" : "0",
+                    "badgeImage" : "Boots_AlertBadgeBlk.png",
+                    "frame" : {
+                      "y" : "FB~5",
+                      "x" : "0",
+                      "width" : "35",
+                      "height" : "35"
+                    },
+                    "badgeBGColor" : "rgba(255,0,0,1)",
+                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.AppStore",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255,255,255,1)",
+                    "labelColor" : "rgba(255, 255, 255, 0.0)",
+                    "badgeImageX" : "0"
+                  }
+                },
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0, 0, 0, 0.0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
                 "cornerRadius" : "0",
-                "imageURL" : "hello.png",
-                "type" : "UIImageView",
-                "actions" : "none"
+                "blurColor" : "dark"
               },
               "time" : {
                 "rotate" : "0",
-                "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                "scale" : "0",
+                "blurColor" : "dark",
+                "blurAlpha" : "0",
                 "frame" : {
                   "y" : "15",
                   "x" : "center",
@@ -94,9 +168,9 @@
                     "fontName" : "arista.otf",
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     }
                   },
                   "hour" : {
@@ -120,9 +194,9 @@
                     "fontName" : "arista.otf",
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     }
                   }
                 },
@@ -130,8 +204,8 @@
                 "cornerRadius" : "5",
                 "borderColor" : "rgba(255,255,255,0)",
                 "type" : "UIView",
-                "blurColor" : "dark",
-                "blurAlpha" : "0"
+                "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+                "scale" : "0"
               },
               "date" : {
                 "borderColor" : "rgba(255,255,255,1)",
@@ -155,9 +229,9 @@
                 "fontName" : "arista.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "temp" : {
@@ -182,10 +256,25 @@
                 "fontName" : "arista.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
+              },
+              "hello" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "FB~265",
+                  "x" : "20",
+                  "width" : "50",
+                  "height" : "50"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "cornerRadius" : "0",
+                "imageURL" : "hello.png",
+                "type" : "UIImageView",
+                "actions" : "none"
               },
               "cond" : {
                 "borderColor" : "rgba(255,255,255,1)",
@@ -209,9 +298,9 @@
                 "fontName" : "arista.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "icon" : {
@@ -224,102 +313,13 @@
                 "forecast" : "none",
                 "type" : "WeatherIcon",
                 "iconSet" : "Smr"
-              },
-              "apps" : {
-                "scale" : "0",
-                "borderColor" : "rgba(255,255,255,0)",
-                "rotate" : "0",
-                "actions" : "none",
-                "frame" : {
-                  "y" : "FB~30",
-                  "x" : "FR~20",
-                  "width" : "125",
-                  "height" : "45"
-                },
-                "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                "blurAlpha" : "0",
-                "type" : "UIView",
-                "animation" : "none",
-                "gradientImage" : "none",
-                "borderWidth" : "0",
-                "alpha" : "1",
-                "children" : {
-                  "no move app 2" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "0.5",
-                    "scale" : "0",
-                    "badgeImage" : "Boots_AlertBadgeBlk.png",
-                    "frame" : {
-                      "y" : "FB~5",
-                      "x" : "center",
-                      "width" : "35",
-                      "height" : "35"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.apple.MobileStore",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.0)"
-                  },
-                  "no move app 3" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "0.5",
-                    "scale" : "0",
-                    "badgeImageX" : "0",
-                    "frame" : {
-                      "y" : "FB~5",
-                      "x" : "FR~0",
-                      "width" : "35",
-                      "height" : "35"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.atebits.Tweetie2",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "labelColor" : "rgba(255, 255, 255, 0.0)",
-                    "badgeImage" : "Boots_AlertBadgeBlk.png"
-                  },
-                  "no_move_app" : {
-                    "badgeImageY" : "0",
-                    "badgeImageScale" : "0.5",
-                    "scale" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.0)",
-                    "frame" : {
-                      "y" : "FB~5",
-                      "x" : "0",
-                      "width" : "35",
-                      "height" : "35"
-                    },
-                    "badgeBGColor" : "rgba(255,0,0,1)",
-                    "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-                    "type" : "AppIcon",
-                    "bundleID" : "com.apple.AppStore",
-                    "alpha" : "1",
-                    "badgeTextColor" : "rgba(255,255,255,1)",
-                    "badgeImageX" : "0",
-                    "badgeImage" : "Boots_AlertBadgeBlk.png"
-                  }
-                },
-                "boxShadow" : {
-                  "y" : "3",
-                  "radius" : "3",
-                  "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.0)"
-                },
-                "cornerRadius" : "0",
-                "blurColor" : "dark"
               }
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(255, 255, 255, 0.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(255, 255, 255, 0.0)"
             },
             "cornerRadius" : "25",
             "blurColor" : "dark"
@@ -327,9 +327,9 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(255, 255, 255, 0.0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(255, 255, 255, 0.0)"
         },
         "cornerRadius" : "25",
         "blurColor" : "dark"
