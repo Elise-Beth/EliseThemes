@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "children" : {
       "body" : {
@@ -24,30 +24,30 @@
         "type" : "UIView",
         "borderWidth" : "0",
         "children" : {
-          "right" : {
+          "left" : {
             "rotate" : "0",
-            "backgroundColor" : "rgba(166, 142, 240, 0.0)",
+            "backgroundColor" : "rgba(234, 185, 103, 0.0)",
             "scale" : "0",
             "frame" : {
-              "y" : "130",
-              "x" : "211",
-              "width" : "416",
+              "y" : "140",
+              "x" : "-1",
+              "width" : "215",
               "height" : "150"
             },
             "children" : {
-              "cond2" : {
+              "condition" : {
                 "borderColor" : "rgba(255,255,255,1)",
                 "textStyle" : "none",
                 "textAlignment" : "NSTextAlignmentCenter",
                 "frame" : {
-                  "y" : "0",
-                  "x" : "-151",
+                  "y" : "-10",
+                  "x" : "61",
                   "width" : "300",
                   "height" : "150"
                 },
                 "kerning" : "0",
-                "backgroundColor" : "rgba(142, 209, 244, 0.0)",
-                "textColor" : "rgba(149, 191, 190, 1.0)",
+                "backgroundColor" : "rgba(191, 138, 65, 0.0)",
+                "textColor" : "rgba(0, 0, 0, 1.0)",
                 "type" : "UILabel",
                 "numberOfLines" : "6",
                 "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
@@ -97,7 +97,7 @@
                     "textAlignment" : "NSTextAlignmentCenter",
                     "frame" : {
                       "y" : "0",
-                      "x" : "-150",
+                      "x" : "-151",
                       "width" : "300",
                       "height" : "45"
                     },
@@ -112,9 +112,9 @@
                     "fontName" : "ALBA.otf",
                     "textShadow" : {
                       "y" : "1",
-                      "color" : "rgba(0, 0, 0, 0.5)",
+                      "radius" : "0",
                       "x" : "1",
-                      "radius" : "0"
+                      "color" : "rgba(0, 0, 0, 0.5)"
                     }
                   }
                 },
@@ -142,7 +142,7 @@
                     "textAlignment" : "NSTextAlignmentCenter",
                     "frame" : {
                       "y" : "0",
-                      "x" : "60",
+                      "x" : "75",
                       "width" : "screen_width",
                       "height" : "45"
                     },
@@ -157,9 +157,9 @@
                     "fontName" : "ALBA.otf",
                     "textShadow" : {
                       "y" : "1",
-                      "color" : "rgba(0, 0, 0, 0.5)",
+                      "radius" : "0",
                       "x" : "1",
-                      "radius" : "0"
+                      "color" : "rgba(0, 0, 0, 0.5)"
                     }
                   }
                 },
@@ -189,55 +189,10 @@
             "type" : "WeatherIcon",
             "iconSet" : "Planets"
           },
-          "left" : {
+          "time" : {
             "rotate" : "0",
             "blurColor" : "dark",
             "blurAlpha" : "0",
-            "frame" : {
-              "y" : "140",
-              "x" : "-1",
-              "width" : "215",
-              "height" : "150"
-            },
-            "children" : {
-              "condition" : {
-                "borderColor" : "rgba(255,255,255,1)",
-                "textStyle" : "none",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "frame" : {
-                  "y" : "-10",
-                  "x" : "61",
-                  "width" : "300",
-                  "height" : "150"
-                },
-                "kerning" : "0",
-                "backgroundColor" : "rgba(191, 138, 65, 0.0)",
-                "textColor" : "rgba(0, 0, 0, 1.0)",
-                "type" : "UILabel",
-                "numberOfLines" : "6",
-                "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
-                "borderWidth" : "0",
-                "fontSize" : "15",
-                "fontName" : "arista.otf",
-                "textShadow" : {
-                  "y" : "1",
-                  "radius" : "0",
-                  "x" : "1",
-                  "color" : "rgba(0, 0, 0, 0.5)"
-                }
-              }
-            },
-            "borderWidth" : "0",
-            "cornerRadius" : "5",
-            "borderColor" : "rgba(255,255,255,0)",
-            "type" : "UIView",
-            "backgroundColor" : "rgba(234, 185, 103, 0.0)",
-            "scale" : "0"
-          },
-          "time" : {
-            "rotate" : "0",
-            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
-            "scale" : "0",
             "frame" : {
               "y" : "260",
               "x" : "center",
@@ -266,9 +221,9 @@
                 "fontName" : "arista.otf",
                 "textShadow" : {
                   "y" : "1",
-                  "radius" : "0",
+                  "color" : "rgba(0, 0, 0, 0.5)",
                   "x" : "1",
-                  "color" : "rgba(0, 0, 0, 0.5)"
+                  "radius" : "0"
                 }
               },
               "hour" : {
@@ -292,6 +247,51 @@
                 "fontName" : "arista.otf",
                 "textShadow" : {
                   "y" : "1",
+                  "color" : "rgba(0, 0, 0, 0.5)",
+                  "x" : "1",
+                  "radius" : "0"
+                }
+              }
+            },
+            "borderWidth" : "0",
+            "cornerRadius" : "5",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "UIView",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "scale" : "0"
+          },
+          "right" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
+            "frame" : {
+              "y" : "130",
+              "x" : "211",
+              "width" : "416",
+              "height" : "150"
+            },
+            "children" : {
+              "cond2" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "-151",
+                  "width" : "300",
+                  "height" : "150"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(142, 209, 244, 0.0)",
+                "textColor" : "rgba(149, 191, 190, 1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "6",
+                "data" : "The weather outside is [condition] with a temperature of [temperature][degreeSymbol][temptype], it feels like [feelslike][degreeSymbol][temptype]. The chance of rain is [precip]% with a humidity level of [humidity]%. The wind blows at [windspeed][windunit] from [winddirection]. Your battery level is [batterypercent]% now [charging].",
+                "borderWidth" : "0",
+                "fontSize" : "15",
+                "fontName" : "arista.otf",
+                "textShadow" : {
+                  "y" : "1",
                   "radius" : "0",
                   "x" : "1",
                   "color" : "rgba(0, 0, 0, 0.5)"
@@ -302,15 +302,15 @@
             "cornerRadius" : "5",
             "borderColor" : "rgba(255,255,255,0)",
             "type" : "UIView",
-            "blurColor" : "dark",
-            "blurAlpha" : "0"
+            "backgroundColor" : "rgba(166, 142, 240, 0.0)",
+            "scale" : "0"
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
