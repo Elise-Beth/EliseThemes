@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
     },
     "children" : {
       "container_dat" : {
@@ -28,6 +28,89 @@
         "borderWidth" : "0",
         "alpha" : "1",
         "children" : {
+          "time_and_date" : {
+            "scale" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "rotate" : "0",
+            "actions" : "none",
+            "frame" : {
+              "y" : "45",
+              "x" : "0",
+              "width" : "130",
+              "height" : "40"
+            },
+            "backgroundColor" : "rgba(70, 68, 69, 1.0)",
+            "blurAlpha" : "0",
+            "type" : "UIView",
+            "animation" : "none",
+            "gradientImage" : "none",
+            "borderWidth" : "0",
+            "alpha" : "1",
+            "children" : {
+              "date_ordinal" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentRight",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "FR~5",
+                  "width" : "130",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : "[dateordinal] •",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "20",
+                "fontName" : "Neutra.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                }
+              },
+              "time" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "130",
+                  "height" : "40"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(70, 68, 69, 0.0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "UILabel",
+                "numberOfLines" : "1",
+                "data" : " • [paddedhour]:[minute]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "20",
+                "fontName" : "Neutra.otf",
+                "textShadow" : {
+                  "y" : "15",
+                  "radius" : "20",
+                  "x" : "-15",
+                  "color" : "rgba(0, 0, 0, 0.0)"
+                }
+              }
+            },
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "cornerRadius" : "5",
+            "blurColor" : "dark"
+          },
           "time_day" : {
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
@@ -69,36 +152,9 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "15",
-                  "color" : "rgba(0, 0, 0, 0.0)",
+                  "radius" : "20",
                   "x" : "-15",
-                  "radius" : "20"
-                }
-              },
-              "time" : {
-                "borderColor" : "rgba(255,255,255,1)",
-                "textStyle" : "none",
-                "textAlignment" : "NSTextAlignmentLeft",
-                "frame" : {
-                  "y" : "45",
-                  "x" : "0",
-                  "width" : "130",
-                  "height" : "40"
-                },
-                "kerning" : "0",
-                "backgroundColor" : "rgba(70, 68, 69, 1.0)",
-                "textColor" : "rgba(255,255,255,1.0)",
-                "type" : "UILabel",
-                "numberOfLines" : "1",
-                "data" : " • [paddedhour]:[minute] • [dateordinal]",
-                "borderWidth" : "0",
-                "gradientImage" : "none",
-                "fontSize" : "20",
-                "fontName" : "Neutra.otf",
-                "textShadow" : {
-                  "y" : "15",
-                  "color" : "rgba(0, 0, 0, 0.0)",
-                  "x" : "-15",
-                  "radius" : "20"
+                  "color" : "rgba(0, 0, 0, 0.0)"
                 }
               },
               "month" : {
@@ -123,17 +179,17 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "15",
-                  "color" : "rgba(0, 0, 0, 0.0)",
+                  "radius" : "20",
                   "x" : "-15",
-                  "radius" : "20"
+                  "color" : "rgba(0, 0, 0, 0.0)"
                 }
               }
             },
             "boxShadow" : {
               "y" : "15",
-              "color" : "rgba(0, 0, 0, 0.0)",
+              "radius" : "20",
               "x" : "-15",
-              "radius" : "20"
+              "color" : "rgba(0, 0, 0, 0.0)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -141,9 +197,9 @@
         },
         "boxShadow" : {
           "y" : "15",
-          "color" : "rgba(0, 0, 0, 0.7)",
+          "radius" : "20",
           "x" : "15",
-          "radius" : "20"
+          "color" : "rgba(0, 0, 0, 0.7)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -192,7 +248,7 @@
                 "textAlignment" : "NSTextAlignmentCenter",
                 "frame" : {
                   "y" : "0",
-                  "x" : "0",
+                  "x" : "5",
                   "width" : "40",
                   "height" : "40"
                 },
@@ -208,9 +264,9 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "battery_bar" : {
@@ -223,17 +279,17 @@
                   "width" : "80",
                   "height" : "10"
                 },
-                "innerColor" : "rgba(88, 120, 141, 1.0)",
-                "type" : "BatteryBar",
                 "midColor" : "rgba(188, 114, 118, 1.0)",
-                "gradientImage" : "none"
+                "type" : "BatteryBar",
+                "gradientImage" : "none",
+                "innerColor" : "rgba(88, 120, 141, 1.0)"
               }
             },
             "boxShadow" : {
               "y" : "15",
-              "color" : "rgba(0, 0, 0, 0.7)",
+              "radius" : "20",
               "x" : "15",
-              "radius" : "20"
+              "color" : "rgba(0, 0, 0, 0.7)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -271,9 +327,9 @@
             },
             "boxShadow" : {
               "y" : "15",
-              "color" : "rgba(0, 0, 0, 0.8)",
+              "radius" : "20",
               "x" : "15",
-              "radius" : "20"
+              "color" : "rgba(0, 0, 0, 0.8)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -281,9 +337,9 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0, 0, 0, 0.7)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0, 0, 0, 0.7)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -348,9 +404,9 @@
                 "fontName" : "Mashup.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "App1" : {
@@ -395,17 +451,17 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0, 0, 0, 0.0)"
                 }
               }
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0, 0, 0, 0.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 0.0)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -451,9 +507,9 @@
                 "fontName" : "Mashup.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "discord" : {
@@ -478,16 +534,16 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "App3" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0",
-                "badgeImage" : "none",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -500,15 +556,15 @@
                 "bundleID" : "com.hammerandchisel.discord",
                 "alpha" : "0",
                 "badgeTextColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImage" : "none"
               }
             },
             "boxShadow" : {
               "y" : "-3",
-              "color" : "rgba(0, 0, 0, 0.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 0.0)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -536,7 +592,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0",
-                "badgeImage" : "none",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -549,8 +605,8 @@
                 "bundleID" : "com.apple.Preferences",
                 "alpha" : "0",
                 "badgeTextColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImage" : "none"
               },
               "text2" : {
                 "borderColor" : "rgba(255,255,255,1)",
@@ -574,9 +630,9 @@
                 "fontName" : "Mashup.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               },
               "settings" : {
@@ -601,17 +657,17 @@
                 "fontName" : "Neutra.otf",
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 }
               }
             },
             "boxShadow" : {
               "y" : "-3",
-              "color" : "rgba(0, 0, 0, 0.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 0.0)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -619,9 +675,9 @@
         },
         "boxShadow" : {
           "y" : "15",
-          "radius" : "20",
+          "color" : "rgba(0, 0, 0, 0.7)",
           "x" : "-15",
-          "color" : "rgba(0, 0, 0, 0.7)"
+          "radius" : "20"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -648,9 +704,9 @@
         "fontName" : "back.otf",
         "textShadow" : {
           "y" : "15",
-          "radius" : "8",
+          "color" : "rgba(0, 0, 0, 0.7)",
           "x" : "15",
-          "color" : "rgba(0, 0, 0, 0.7)"
+          "radius" : "8"
         }
       }
     }
