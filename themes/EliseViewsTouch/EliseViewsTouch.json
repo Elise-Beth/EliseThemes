@@ -67,17 +67,17 @@
                 "badgeBGColor" : "rgba(255,0,0,1)",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "type" : "AppIcon",
-                "bundleID" : "com.saurik.Cydia",
+                "bundleID" : "com.google.Translate",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImageX" : "0"
               },
               "app6" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "0",
@@ -87,11 +87,11 @@
                 "badgeBGColor" : "rgba(255,0,0,1)",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "type" : "AppIcon",
-                "bundleID" : "com.apple.iBooks",
+                "bundleID" : "com.apple.DocumentsApp",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app3" : {
                 "badgeImageY" : "0",
@@ -137,7 +137,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "65",
@@ -147,17 +147,17 @@
                 "badgeBGColor" : "rgba(255,0,0,1)",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "type" : "AppIcon",
-                "bundleID" : "com.google.Gmail",
+                "bundleID" : "xyz.willy.Zebra",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app4" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImageX" : "0",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "20",
                   "x" : "FR~65",
@@ -167,11 +167,11 @@
                 "badgeBGColor" : "rgba(255,0,0,1)",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "type" : "AppIcon",
-                "bundleID" : "com.apple.store.Jolly",
+                "bundleID" : "com.atebits.Tweetie2",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImage" : "CarbonBadge.png"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.0)"
               },
               "app1" : {
                 "badgeImageY" : "0",
@@ -237,7 +237,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImageX" : "0",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "20",
                   "x" : "65",
@@ -247,11 +247,11 @@
                 "badgeBGColor" : "rgba(255,0,0,1)",
                 "backgroundColor" : "rgba(255,255,255,0)",
                 "type" : "AppIcon",
-                "bundleID" : "com.niksoftware.snapseedforipad",
+                "bundleID" : "com.burbn.instagram",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImage" : "CarbonBadge.png"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.0)"
               }
             },
             "boxShadow" : {
@@ -356,33 +356,6 @@
         "borderWidth" : "0",
         "alpha" : "1",
         "children" : {
-          "cond" : {
-            "borderColor" : "rgba(255,255,255,1)",
-            "textStyle" : "capitalize",
-            "textAlignment" : "NSTextAlignmentLeft",
-            "frame" : {
-              "y" : "FB~0",
-              "x" : "15",
-              "width" : "screen_width",
-              "height" : "40"
-            },
-            "kerning" : "0",
-            "backgroundColor" : "rgba(255,255,255,0)",
-            "textColor" : "rgba(35, 35, 35, 1.0)",
-            "type" : "UILabel",
-            "numberOfLines" : "1",
-            "data" : "[condition] & [temperature][temptype]",
-            "borderWidth" : "0",
-            "gradientImage" : "none",
-            "fontSize" : "20",
-            "fontName" : "CaviarDreams.ttf",
-            "textShadow" : {
-              "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
-              "x" : "1",
-              "radius" : "3"
-            }
-          },
           "top_round_2" : {
             "scale" : "0",
             "borderColor" : "rgba(255,255,255,0)",
@@ -460,6 +433,33 @@
             },
             "cornerRadius" : "65",
             "blurColor" : "light"
+          },
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "FB~0",
+              "x" : "15",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(35, 35, 35, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition] & [temperature][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "CaviarDreams.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
+              "x" : "1",
+              "radius" : "3"
+            }
           },
           "time" : {
             "borderColor" : "rgba(255,255,255,1)",
@@ -618,8 +618,8 @@
             "data" : "welcome back [devicename]",
             "borderWidth" : "0",
             "gradientImage" : "none",
-            "fontSize" : "33",
-            "fontName" : "PhotographSignature.otf",
+            "fontSize" : "30",
+            "fontName" : "Andrea Bellarosa.ttf",
             "textShadow" : {
               "y" : "1",
               "color" : "rgba(0, 0, 0, 1.0)",
@@ -684,17 +684,6 @@
                 "type" : "UIView",
                 "cornerRadius" : 10,
                 "children" : {
-                  "weather_icon2" : {
-                    "frame" : {
-                      "y" : "27",
-                      "x" : "0",
-                      "width" : "50",
-                      "height" : "50"
-                    },
-                    "forecast" : "day2",
-                    "type" : "WeatherIcon",
-                    "iconSet" : "Claro"
-                  },
                   "weather_icon4" : {
                     "frame" : {
                       "y" : "27",
@@ -714,6 +703,17 @@
                       "height" : "50"
                     },
                     "forecast" : "day3",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "Claro"
+                  },
+                  "weather_icon2" : {
+                    "frame" : {
+                      "y" : "27",
+                      "x" : "0",
+                      "width" : "50",
+                      "height" : "50"
+                    },
+                    "forecast" : "day2",
                     "type" : "WeatherIcon",
                     "iconSet" : "Claro"
                   }
