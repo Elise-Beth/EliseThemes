@@ -1,0 +1,534 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~200",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "400"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "315",
+              "x" : "center",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(243, 179, 89, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[textTime]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "30",
+            "fontName" : "YesterdayDream-Script.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "day" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "15",
+              "x" : "FR~0",
+              "width" : "300",
+              "height" : "110"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "textColor" : "rgba(105, 123, 55, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "40",
+            "fontName" : "Signatrue.otf",
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "date" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "190",
+              "x" : "center",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(243, 179, 89, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [date]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "30",
+            "fontName" : "YesterdayDream-Script.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "text" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "147",
+              "x" : "center",
+              "width" : "150",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "In the next 3 days",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "grandhotel.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "forecast" : {
+            "frame" : {
+              "y" : "145",
+              "x" : "35",
+              "width" : "100",
+              "height" : "40"
+            },
+            "backgroundColor" : "rgba(113, 118, 51, 0.00)",
+            "type" : "UIView",
+            "cornerRadius" : 10,
+            "children" : {
+              "weather_icon4" : {
+                "frame" : {
+                  "y" : "7",
+                  "x" : "FR~0",
+                  "width" : "27",
+                  "height" : "27"
+                },
+                "forecast" : "day4",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              },
+              "weather_icon3" : {
+                "frame" : {
+                  "y" : "7",
+                  "x" : "center",
+                  "width" : "27",
+                  "height" : "27"
+                },
+                "forecast" : "day3",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              },
+              "weather_icon2" : {
+                "frame" : {
+                  "y" : "7",
+                  "x" : "0",
+                  "width" : "27",
+                  "height" : "27"
+                },
+                "forecast" : "day2",
+                "type" : "WeatherIcon",
+                "iconSet" : "tick"
+              }
+            }
+          },
+          "hi_lo" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "250",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "The high and the low today: [high][temptype] & [low][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "grandhotel.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "feels" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "230",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Currently it feels like [feelslike][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "grandhotel.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          },
+          "cond" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "270",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "It's [condition] outside and the temp is around [temperature][temptype]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "20",
+            "fontName" : "grandhotel.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "apps" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~55",
+          "x" : "center",
+          "width" : "350",
+          "height" : "80"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "app1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.9",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.pixelmatorteam.pixelmator.touch",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "Image248.png"
+          },
+          "app4" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.9",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "0",
+              "x" : "FR~73",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.weather",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "Image248.png"
+          },
+          "app2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.9",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "0",
+              "x" : "73",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilesafari",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "Image248.png"
+          },
+          "app5" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.9",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "0",
+              "x" : "FR~0",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.hammerandchisel.discord",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "Image248.png"
+          },
+          "app3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.9",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "0",
+              "x" : "center",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobileslideshow",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImage" : "Image248.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 0.50)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "85",
+          "x" : "FR~25",
+          "width" : "65",
+          "height" : "65"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "tick"
+      },
+      "time_of_day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "28",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Good [timeofday] [devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "17",
+        "fontName" : "grandhotel.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "bat" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "FB~10",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "50"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "shade1" : {
+            "rotate" : "0",
+            "blurColor" : "dark",
+            "blurAlpha" : "0",
+            "frame" : {
+              "y" : "35",
+              "x" : "center",
+              "width" : "200",
+              "height" : "3"
+            },
+            "borderWidth" : "0",
+            "cornerRadius" : "5",
+            "boxShadow" : {
+              "y" : "1",
+              "radius" : "1",
+              "x" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            },
+            "type" : "UIView",
+            "borderColor" : "rgba(255,255,255,0)",
+            "backgroundColor" : "rgba(0, 0, 0, 1.0)",
+            "scale" : "0"
+          },
+          "battery" : {
+            "radius" : "2",
+            "lowColor" : "rgba(108, 122, 64, 1.00)",
+            "backColor" : "rgba(35, 35, 35, 1.00)",
+            "frame" : {
+              "y" : "35",
+              "x" : "center",
+              "width" : "200",
+              "height" : "3"
+            },
+            "type" : "BatteryBar",
+            "midColor" : "rgba(233, 182, 104, 1.00)",
+            "innerColor" : "rgba(195, 184, 152, 1.00)"
+          },
+          "battery_level" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "Battery level: [batterypercent]%",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "17",
+            "fontName" : "grandhotel.otf",
+            "textShadow" : {
+              "y" : "2",
+              "radius" : "1",
+              "x" : "0",
+              "color" : "rgba(0, 0, 0, 1.00)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
