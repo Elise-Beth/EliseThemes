@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "sid",
@@ -45,9 +45,9 @@
         },
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -88,9 +88,9 @@
             "fontName" : "Champagne & Limousines Bold.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.4)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.4)"
             }
           },
           "ico" : {
@@ -125,9 +125,9 @@
             "fontName" : "Champagne & Limousines Bold.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.4)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.4)"
             }
           },
           "time_label" : {
@@ -150,9 +150,9 @@
             "fontName" : "Klopersdemo.otf",
             "textShadow" : {
               "y" : 3,
-              "radius" : 3,
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "3",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : 3
             },
             "cornerRadius" : 0
           },
@@ -177,9 +177,9 @@
             "fontName" : "Champagne & Limousines Bold.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 0.4)",
+              "radius" : "1",
               "x" : "1",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.4)"
             }
           },
           "tme" : {
@@ -203,17 +203,17 @@
             "fontName" : "Klopersdemo.otf",
             "textShadow" : {
               "y" : 3,
-              "radius" : 3,
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "3",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : 3
             }
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
