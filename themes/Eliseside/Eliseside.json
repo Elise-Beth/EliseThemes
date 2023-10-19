@@ -1,0 +1,223 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "sid",
+      "body"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "sid" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "0",
+          "x" : "0",
+          "width" : "140",
+          "height" : "930"
+        },
+        "backgroundColor" : "rgba(222, 122, 64, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "bat" : {
+            "radius" : "2",
+            "lowColor" : "rgba(20, 54, 72, 0.5)",
+            "backColor" : "rgba(0, 0, 0, 0.3)",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "140",
+              "height" : "930"
+            },
+            "type" : "BatteryBar",
+            "midColor" : "rgba(43, 61, 22, 0.5)",
+            "innerColor" : "rgba(55, 12, 27, 0.5)"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "body" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "frame" : {
+          "y" : "40",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "330"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "borderWidth" : "0",
+        "children" : {
+          "wea" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "190",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255, 255, 255, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[condition] & [temperature][degreeSymbol][temptype]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Champagne & Limousines Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.4)",
+              "x" : "1",
+              "radius" : "1"
+            }
+          },
+          "ico" : {
+            "frame" : {
+              "y" : "20",
+              "x" : "20",
+              "width" : "120",
+              "height" : "120"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Xpprem"
+          },
+          "rai_w" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "210",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255, 255, 255, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "rain [precip]% & [windspeed][windunit] [winddirection] wind",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Champagne & Limousines Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.4)",
+              "x" : "1",
+              "radius" : "1"
+            }
+          },
+          "time_label" : {
+            "borderColor" : "rgba(255,255,255,1.0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "100",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "80"
+            },
+            "backgroundColor" : "rgba(50, 15, 27, 0.0)",
+            "kerning" : "-1",
+            "textColor" : "rgba(120, 87, 108, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[day]",
+            "borderWidth" : 0,
+            "fontSize" : "40",
+            "fontName" : "Klopersdemo.otf",
+            "textShadow" : {
+              "y" : 3,
+              "radius" : 3,
+              "x" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            },
+            "cornerRadius" : 0
+          },
+          "mon" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "170",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255, 255, 255, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[month] [paddedmonthnumber]",
+            "borderWidth" : "0",
+            "fontSize" : "15",
+            "fontName" : "Champagne & Limousines Bold.ttf",
+            "textShadow" : {
+              "y" : "1",
+              "color" : "rgba(0, 0, 0, 0.4)",
+              "x" : "1",
+              "radius" : "1"
+            }
+          },
+          "tme" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "250",
+              "x" : "30",
+              "width" : "screen_width",
+              "height" : "80"
+            },
+            "kerning" : "-1",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(120, 87, 108, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[paddedhour].[minute]",
+            "borderWidth" : "0",
+            "fontSize" : "40",
+            "fontName" : "Klopersdemo.otf",
+            "textShadow" : {
+              "y" : 3,
+              "radius" : 3,
+              "x" : "3",
+              "color" : "rgba(0, 0, 0, 1.0)"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
