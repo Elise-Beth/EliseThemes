@@ -1,0 +1,342 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "minutes",
+      "month",
+      "day",
+      "time",
+      "icon",
+      "condition",
+      "shade",
+      "battery",
+      "apps"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "apps" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "305",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "app1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.7",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.iBooks",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Image57.png"
+          },
+          "app4" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.7",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "0",
+              "x" : "180",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.getdropbox.Dropbox",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Image57.png"
+          },
+          "app2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.7",
+            "badgeImage" : "Image57.png",
+            "frame" : {
+              "y" : "0",
+              "x" : "60",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.MobileAddressBook",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          },
+          "app5" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.7",
+            "labelColor" : "rgba(255, 255, 255, 0.00)",
+            "frame" : {
+              "y" : "0",
+              "x" : "240",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.plusblog.smpro",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "Image57.png"
+          },
+          "app3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0.7",
+            "badgeImage" : "Image57.png",
+            "frame" : {
+              "y" : "0",
+              "x" : "120",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.tips",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          }
+        },
+        "boxShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "condition" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "215",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "180",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textHour]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "day" : {
+        "borderColor" : "rgba(0, 0, 0, 1.00)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "100",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day] [timeofday] [dateordinal]",
+        "borderWidth" : "1",
+        "gradientImage" : "none",
+        "fontSize" : "50",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "shade" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "280",
+          "x" : "center",
+          "width" : "300",
+          "height" : "2"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 1.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "boxShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "2"
+        },
+        "cornerRadius" : "1",
+        "blurColor" : "dark"
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "180",
+          "x" : "65",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month] ",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      },
+      "battery" : {
+        "radius" : "1",
+        "lowColor" : "rgba(84, 17, 7, 1.00)",
+        "backColor" : "rgba(0,0,0,1.0)",
+        "frame" : {
+          "y" : "280",
+          "x" : "center",
+          "width" : "300",
+          "height" : "2"
+        },
+        "innerColor" : "rgba(235, 81, 46, 1.00)",
+        "type" : "BatteryBar",
+        "gradientImage" : "none",
+        "midColor" : "rgba(166, 44, 23, 1.00)"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "50",
+          "x" : "center",
+          "width" : "70",
+          "height" : "70"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "HTC11"
+      },
+      "minutes" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentRight",
+        "frame" : {
+          "y" : "180",
+          "x" : "FR~65",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textMinute]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "35",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        }
+      }
+    }
+  }
+}
