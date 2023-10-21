@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "minutes",
@@ -41,9 +41,9 @@
         "fontName" : "Dorsa-Regular.ttf",
         "textShadow" : {
           "y" : "2",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "2",
           "x" : "0",
-          "radius" : "2"
+          "color" : "rgba(0, 0, 0, 1.00)"
         }
       },
       "time" : {
@@ -68,9 +68,9 @@
         "fontName" : "Dorsa-Regular.ttf",
         "textShadow" : {
           "y" : "2",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "2",
           "x" : "0",
-          "radius" : "2"
+          "color" : "rgba(0, 0, 0, 1.00)"
         }
       },
       "day" : {
@@ -95,9 +95,9 @@
         "fontName" : "Dorsa-Regular.ttf",
         "textShadow" : {
           "y" : "2",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "2",
           "x" : "0",
-          "radius" : "2"
+          "color" : "rgba(0, 0, 0, 1.00)"
         }
       },
       "shade" : {
@@ -120,9 +120,9 @@
         "alpha" : "1",
         "boxShadow" : {
           "y" : "2",
-          "radius" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 1.00)"
+          "radius" : "2"
         },
         "cornerRadius" : "1",
         "blurColor" : "dark"
@@ -149,9 +149,9 @@
         "fontName" : "Dorsa-Regular.ttf",
         "textShadow" : {
           "y" : "2",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "2",
           "x" : "0",
-          "radius" : "2"
+          "color" : "rgba(0, 0, 0, 1.00)"
         }
       },
       "battery" : {
@@ -164,10 +164,10 @@
           "width" : "300",
           "height" : "2"
         },
-        "gradientImage" : "none",
+        "innerColor" : "rgba(235, 81, 46, 1.00)",
         "type" : "BatteryBar",
-        "midColor" : "rgba(166, 44, 23, 1.00)",
-        "innerColor" : "rgba(235, 81, 46, 1.00)"
+        "gradientImage" : "none",
+        "midColor" : "rgba(166, 44, 23, 1.00)"
       },
       "icon" : {
         "frame" : {
@@ -178,7 +178,7 @@
         },
         "forecast" : "none",
         "type" : "WeatherIcon",
-        "iconSet" : "OrangeBlack"
+        "iconSet" : "HTC11"
       },
       "minutes" : {
         "borderColor" : "rgba(255,255,255,1)",
@@ -202,9 +202,9 @@
         "fontName" : "Dorsa-Regular.ttf",
         "textShadow" : {
           "y" : "2",
-          "color" : "rgba(0, 0, 0, 1.00)",
+          "radius" : "2",
           "x" : "0",
-          "radius" : "2"
+          "color" : "rgba(0, 0, 0, 1.00)"
         }
       }
     }
