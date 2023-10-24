@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "height" : "screen_height",
       "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width",
-      "height" : "screen_height"
+      "width" : "screen_width"
     },
     "order" : [
       "box",
@@ -49,9 +49,9 @@
             "fontSize" : "18",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "fontName" : "WrathStyles.ttf",
             "cornerRadius" : "20",
@@ -80,7 +80,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "FR~65",
@@ -94,13 +94,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app6" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "0",
@@ -114,13 +114,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app3" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "20",
                   "x" : "center",
@@ -134,13 +134,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app10" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "FR~0",
@@ -154,13 +154,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app7" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "85",
                   "x" : "65",
@@ -174,13 +174,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app4" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "20",
                   "x" : "FR~65",
@@ -194,13 +194,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app1" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "20",
                   "x" : "0",
@@ -214,13 +214,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app8" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "85",
                   "x" : "center",
@@ -233,14 +233,14 @@
                 "bundleID" : "com.atebits.Tweetie2",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "badgeImageX" : "0",
-                "badgeImage" : "CarbonBadge.png"
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImageX" : "0"
               },
               "app5" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImage" : "CarbonBadge.png",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "20",
                   "x" : "FR~0",
@@ -254,13 +254,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0"
+                "badgeImage" : "CarbonBadge.png"
               },
               "app2" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "1",
                 "scale" : "0.8",
-                "badgeImageX" : "0",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "20",
                   "x" : "65",
@@ -273,15 +273,15 @@
                 "bundleID" : "com.apple.Preferences",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImage" : "CarbonBadge.png"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.0)"
               }
             },
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -289,9 +289,9 @@
         },
         "boxShadow" : {
           "y" : "-10",
-          "color" : "rgba(0, 0, 0, 0.9)",
+          "radius" : "10",
           "x" : "0",
-          "radius" : "10"
+          "color" : "rgba(0, 0, 0, 0.9)"
         },
         "cornerRadius" : "0",
         "blurColor" : "dark"
@@ -320,9 +320,9 @@
         "alpha" : "1",
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -366,9 +366,9 @@
             "fontName" : "WrathStyles.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "day" : {
@@ -393,9 +393,9 @@
             "fontName" : "AAabnes.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "h" : {
@@ -420,9 +420,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "m" : {
@@ -447,9 +447,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "month" : {
@@ -474,9 +474,9 @@
             "fontName" : "AAabnes.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "bat" : {
@@ -501,16 +501,16 @@
                 "frame" : {
                   "y" : "22",
                   "x" : "center",
-                  "width" : "350",
+                  "width" : "math(screen_width-80)",
                   "height" : "2"
                 },
                 "borderWidth" : "0",
                 "cornerRadius" : "5",
                 "boxShadow" : {
                   "y" : "1",
-                  "radius" : "1",
+                  "color" : "rgba(0, 0, 0, 1.0)",
                   "x" : "1",
-                  "color" : "rgba(0, 0, 0, 1.0)"
+                  "radius" : "1"
                 },
                 "type" : "UIView",
                 "borderColor" : "rgba(255,255,255,0)",
@@ -524,7 +524,7 @@
                 "frame" : {
                   "y" : "22",
                   "x" : "center",
-                  "width" : "350",
+                  "width" : "math(screen_width-80)",
                   "height" : "2"
                 },
                 "type" : "BatteryBar",
@@ -534,9 +534,9 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -563,9 +563,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "name" : {
@@ -590,9 +590,9 @@
             "fontName" : "WrathStyles.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "icon" : {
@@ -609,9 +609,9 @@
         },
         "boxShadow" : {
           "y" : "-10",
-          "radius" : "10",
+          "color" : "rgba(0, 0, 0, 0.9)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 0.9)"
+          "radius" : "10"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"

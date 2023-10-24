@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "box",
@@ -49,9 +49,9 @@
             "fontSize" : "18",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             },
             "fontName" : "WrathStyles.ttf",
             "cornerRadius" : "20",
@@ -83,21 +83,6 @@
                 "type" : "UILabel",
                 "textColor" : "rgba(178, 121, 60, 1.00)"
               },
-              "day1precip" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day1precip]%",
-                "frame" : {
-                  "y" : "85",
-                  "x" : "0",
-                  "width" : "60",
-                  "height" : "8"
-                },
-                "fontName" : "CaviarDreams.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(170,203,255,1.0)"
-              },
               "day2precip" : {
                 "fontSize" : "FH",
                 "textAlignment" : "NSTextAlignmentCenter",
@@ -106,6 +91,21 @@
                 "frame" : {
                   "y" : "85",
                   "x" : "60",
+                  "width" : "60",
+                  "height" : "8"
+                },
+                "fontName" : "CaviarDreams.ttf",
+                "type" : "UILabel",
+                "textColor" : "rgba(170,203,255,1.0)"
+              },
+              "day3precip" : {
+                "fontSize" : "FH",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day3precip]%",
+                "frame" : {
+                  "y" : "85",
+                  "x" : "120",
                   "width" : "60",
                   "height" : "8"
                 },
@@ -124,21 +124,6 @@
                 "type" : "WeatherIcon",
                 "iconSet" : "Claro"
               },
-              "day3precip" : {
-                "fontSize" : "FH",
-                "textAlignment" : "NSTextAlignmentCenter",
-                "numberOfLines" : "1",
-                "data" : "[day3precip]%",
-                "frame" : {
-                  "y" : "85",
-                  "x" : "120",
-                  "width" : "60",
-                  "height" : "8"
-                },
-                "fontName" : "CaviarDreams.ttf",
-                "type" : "UILabel",
-                "textColor" : "rgba(170,203,255,1.0)"
-              },
               "day4precip" : {
                 "fontSize" : "FH",
                 "textAlignment" : "NSTextAlignmentCenter",
@@ -147,6 +132,21 @@
                 "frame" : {
                   "y" : "85",
                   "x" : "180",
+                  "width" : "60",
+                  "height" : "8"
+                },
+                "fontName" : "CaviarDreams.ttf",
+                "type" : "UILabel",
+                "textColor" : "rgba(170,203,255,1.0)"
+              },
+              "day5precip" : {
+                "fontSize" : "FH",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "numberOfLines" : "1",
+                "data" : "[day5precip]%",
+                "frame" : {
+                  "y" : "85",
+                  "x" : "240",
                   "width" : "60",
                   "height" : "8"
                 },
@@ -333,14 +333,14 @@
                 "type" : "WeatherIcon",
                 "iconSet" : "Claro"
               },
-              "day5precip" : {
+              "day1precip" : {
                 "fontSize" : "FH",
                 "textAlignment" : "NSTextAlignmentCenter",
                 "numberOfLines" : "1",
-                "data" : "[day5precip]%",
+                "data" : "[day1precip]%",
                 "frame" : {
                   "y" : "85",
-                  "x" : "240",
+                  "x" : "0",
                   "width" : "60",
                   "height" : "8"
                 },
@@ -353,9 +353,9 @@
         },
         "boxShadow" : {
           "y" : "-10",
-          "color" : "rgba(0, 0, 0, 0.9)",
+          "radius" : "10",
           "x" : "0",
-          "radius" : "10"
+          "color" : "rgba(0, 0, 0, 0.9)"
         },
         "cornerRadius" : "0",
         "blurColor" : "dark"
@@ -376,17 +376,17 @@
         "type" : "UIView",
         "animation" : {
           "box" : "{alpha:1,speed:0.6,wait:0.3,toggle:yes,transition:linear,}",
-          "body" : "{x:-450,speed:0.6,wait:0.2,toggle:yes,transition:linear,}",
-          "forecast" : "{ speed:0.8,wait:0.4,toggle:yes,transition:flipfromtop,}"
+          "forecast" : "{ speed:0.8,wait:0.4,toggle:yes,transition:flipfromtop,}",
+          "body" : "{x:-450,speed:0.6,wait:0.2,toggle:yes,transition:linear,}"
         },
         "gradientImage" : "none",
         "borderWidth" : "0",
         "alpha" : "1",
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
@@ -430,9 +430,9 @@
             "fontName" : "WrathStyles.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "day" : {
@@ -457,9 +457,9 @@
             "fontName" : "AAabnes.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "h" : {
@@ -484,9 +484,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "m" : {
@@ -511,9 +511,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 1.0)",
               "x" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)"
+              "radius" : "1"
             }
           },
           "month" : {
@@ -538,9 +538,9 @@
             "fontName" : "AAabnes.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "bat" : {
@@ -565,16 +565,16 @@
                 "frame" : {
                   "y" : "22",
                   "x" : "center",
-                  "width" : "350",
+                  "width" : "math(screen_width-80)",
                   "height" : "2"
                 },
                 "borderWidth" : "0",
                 "cornerRadius" : "5",
                 "boxShadow" : {
                   "y" : "1",
-                  "radius" : "1",
+                  "color" : "rgba(0, 0, 0, 1.0)",
                   "x" : "1",
-                  "color" : "rgba(0, 0, 0, 1.0)"
+                  "radius" : "1"
                 },
                 "type" : "UIView",
                 "borderColor" : "rgba(255,255,255,0)",
@@ -588,7 +588,7 @@
                 "frame" : {
                   "y" : "22",
                   "x" : "center",
-                  "width" : "350",
+                  "width" : "math(screen_width-80)",
                   "height" : "2"
                 },
                 "type" : "BatteryBar",
@@ -598,9 +598,9 @@
             },
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "cornerRadius" : "5",
             "blurColor" : "dark"
@@ -627,9 +627,9 @@
             "fontName" : "panama.otf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "name" : {
@@ -654,9 +654,9 @@
             "fontName" : "WrathStyles.ttf",
             "textShadow" : {
               "y" : "1",
-              "color" : "rgba(0, 0, 0, 1.0)",
+              "radius" : "0",
               "x" : "1",
-              "radius" : "0"
+              "color" : "rgba(0, 0, 0, 1.0)"
             }
           },
           "icon" : {
@@ -673,9 +673,9 @@
         },
         "boxShadow" : {
           "y" : "-10",
-          "radius" : "10",
+          "color" : "rgba(0, 0, 0, 0.9)",
           "x" : "0",
-          "color" : "rgba(0, 0, 0, 0.9)"
+          "radius" : "10"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
