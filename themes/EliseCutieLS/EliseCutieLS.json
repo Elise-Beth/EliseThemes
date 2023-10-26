@@ -1,0 +1,215 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "date",
+      "hello",
+      "day",
+      "month",
+      "icon",
+      "time",
+      "forecast"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "740",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(224, 200, 196, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "grandhotel.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "1",
+          "radius" : "1"
+        }
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "lowercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "620",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(224, 200, 196, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "today is [day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "grandhotel.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "1",
+          "radius" : "1"
+        }
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "lowercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "645",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(224, 200, 196, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "in the month of [month]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "grandhotel.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "1",
+          "radius" : "1"
+        }
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "515",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "200"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(230, 187, 126, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[date]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "200",
+        "fontName" : "arista.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 0.50)",
+          "x" : "2",
+          "radius" : "4"
+        }
+      },
+      "forecast" : {
+        "frame" : {
+          "y" : "665",
+          "x" : "center",
+          "width" : "130",
+          "height" : "100"
+        },
+        "backgroundColor" : "rgba(204, 178, 154, 0.0)",
+        "type" : "UIView",
+        "cornerRadius" : 10,
+        "children" : {
+          "weather_icon3" : {
+            "frame" : {
+              "y" : "27",
+              "x" : "center",
+              "width" : "40",
+              "height" : "40"
+            },
+            "forecast" : "day3",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          },
+          "weather_icon2" : {
+            "frame" : {
+              "y" : "27",
+              "x" : "0",
+              "width" : "40",
+              "height" : "40"
+            },
+            "forecast" : "day2",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          },
+          "weather_icon4" : {
+            "frame" : {
+              "y" : "27",
+              "x" : "FR~0",
+              "width" : "40",
+              "height" : "40"
+            },
+            "forecast" : "day4",
+            "type" : "WeatherIcon",
+            "iconSet" : "Plano"
+          }
+        }
+      },
+      "hello" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "25",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textColor" : "rgba(224, 200, 196, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "hello [devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSize" : "25",
+        "fontName" : "grandhotel.otf",
+        "textShadow" : {
+          "y" : "2",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "1",
+          "radius" : "1"
+        }
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "545",
+          "x" : "center",
+          "width" : "80",
+          "height" : "80"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Plano"
+      }
+    }
+  }
+}
