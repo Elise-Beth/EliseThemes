@@ -3,10 +3,10 @@
     "type" : "UIView",
     "frame" : {
       "y" : "0",
-      "x" : "0",
-      "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
     },
     "children" : {
       "body" : {
@@ -14,7 +14,7 @@
         "borderColor" : "rgba(255,255,255,0)",
         "rotate" : "0",
         "frame" : {
-          "y" : "320",
+          "y" : "270",
           "x" : "center",
           "width" : "screen_width",
           "height" : "300"
@@ -217,17 +217,6 @@
               "radius" : "0"
             }
           },
-          "icon" : {
-            "frame" : {
-              "y" : "-50",
-              "x" : "center",
-              "width" : "100",
-              "height" : "100"
-            },
-            "forecast" : "none",
-            "type" : "WeatherIcon",
-            "iconSet" : "Miui"
-          },
           "feels" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "none",
@@ -288,7 +277,7 @@
             "badgeImageY" : "0",
             "badgeImageScale" : "0.5",
             "scale" : "0",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
             "frame" : {
               "y" : "FB~5",
               "x" : "center",
@@ -301,7 +290,7 @@
             "bundleID" : "com.saurik.Cydia",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255,255,255,1)",
-            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "0",
             "badgeImage" : "CarbonBadge.png"
           },
           "no move app 3" : {
@@ -321,14 +310,14 @@
             "bundleID" : "com.apple.Preferences",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255,255,255,1)",
-            "labelColor" : "rgba(255, 255, 255, 0.0)",
-            "badgeImageX" : "0"
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)"
           },
           "no_move_app" : {
             "badgeImageY" : "0",
             "badgeImageScale" : "0.5",
             "scale" : "0",
-            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "0",
             "frame" : {
               "y" : "FB~5",
               "x" : "0",
@@ -341,7 +330,7 @@
             "bundleID" : "com.apple.mobilenotes",
             "alpha" : "1",
             "badgeTextColor" : "rgba(255,255,255,1)",
-            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
             "badgeImage" : "CarbonBadge.png"
           }
         },
@@ -359,7 +348,7 @@
         "borderColor" : "rgba(255,255,255,0)",
         "rotate" : "0",
         "frame" : {
-          "y" : "245",
+          "y" : "0",
           "x" : "center",
           "width" : "screen_width",
           "height" : "100"
@@ -370,6 +359,17 @@
         "gradientImage" : "none",
         "borderWidth" : "0",
         "children" : {
+          "icon" : {
+            "frame" : {
+              "y" : "-15",
+              "x" : "center",
+              "width" : "100",
+              "height" : "100"
+            },
+            "forecast" : "none",
+            "type" : "WeatherIcon",
+            "iconSet" : "Miui"
+          },
           "time_of_day" : {
             "borderColor" : "rgba(255,255,255,1)",
             "textStyle" : "capitalize",
