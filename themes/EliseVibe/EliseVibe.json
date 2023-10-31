@@ -1,0 +1,338 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "70",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textHour] [minute] today [textDate]",
+        "borderWidth" : "0",
+        "gradientImage" : "Image1.png",
+        "fontSizeAttr" : "none",
+        "fontSize" : "15",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "50",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "13",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "hi" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~140",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "Hi [devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "13",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "bat_box" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "30",
+        "actions" : "none",
+        "frame" : {
+          "y" : "500",
+          "x" : "-265",
+          "width" : "505",
+          "height" : "2.5"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "battery" : {
+            "radius" : "0",
+            "lowColor" : "rgba(255,0,0,1.0)",
+            "backColor" : "rgba(0,0,0,1.0)",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "498",
+              "height" : "2"
+            },
+            "innerColor" : "rgba(0,255,0,1.0)",
+            "type" : "BatteryBar",
+            "midColor" : "rgba(255,153,64,1.0)",
+            "gradientImage" : "batterygradient.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "90",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "13",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "bat_level" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~100",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "battery [batterypercent]%",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "13",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "FB~120",
+          "x" : "30",
+          "width" : "330",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "Image1.png",
+        "fontSizeAttr" : "none",
+        "fontSize" : "15",
+        "fontName" : "abeatbykai.otf",
+        "textShadow" : {
+          "y" : "2",
+          "radius" : "1",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "FR~30",
+          "width" : "45",
+          "height" : "45"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Cikukua"
+      },
+      "apps" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~50",
+          "x" : "30",
+          "width" : "130",
+          "height" : "40"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "no move app 2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImage" : "CarbonBadge.png",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "center",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Maps",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)"
+          },
+          "no move app 3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "FR~0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.burbn.instagram",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "CarbonBadge.png"
+          },
+          "no_move_app" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.MobileSMS",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImage" : "CarbonBadge.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "2",
+          "x" : "0",
+          "color" : "rgba(0, 0, 0, 0.50)"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
