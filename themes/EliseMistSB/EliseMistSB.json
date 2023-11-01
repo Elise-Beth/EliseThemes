@@ -1,0 +1,242 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "day",
+      "time",
+      "month",
+      "cond",
+      "icon",
+      "apps"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "200",
+          "x" : "100",
+          "width" : "200",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "[temperature][temptype]",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] ",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "17",
+        "fontSize" : "15",
+        "fontName" : "Champagne & Limousines Bold.ttf",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "1",
+          "x" : "1",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "Champagne & Limousines.ttf"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "155",
+          "x" : "10",
+          "width" : "100",
+          "height" : "100"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "climacut"
+      },
+      "apps" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "260",
+          "x" : "95",
+          "width" : "110",
+          "height" : "45"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "no move app 2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "center",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.hammerandchisel.discord",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "CarbonBadge.png"
+          },
+          "no move app 3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "FR~0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Preferences",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "CarbonBadge.png"
+          },
+          "no_move_app" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.atebits.Tweetie2",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImage" : "CarbonBadge.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      },
+      "day" : {
+        "borderColor" : "rgba(76, 86, 76, 0.00)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "84",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "250"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(27, 32, 31, 0.00)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(71, 86, 74, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "2",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "65",
+        "fontName" : "Signatrue.otf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.00)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "180",
+          "x" : "100",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "[minute]",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[textHour] ",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "17",
+        "fontSize" : "15",
+        "fontName" : "Champagne & Limousines Bold.ttf",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "1",
+          "x" : "1",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "Champagne & Limousines.ttf"
+      },
+      "month" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "160",
+          "x" : "100",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "[dateordinal]",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[month] ",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "17",
+        "fontSize" : "15",
+        "fontName" : "Champagne & Limousines Bold.ttf",
+        "textShadow" : {
+          "y" : "1",
+          "radius" : "1",
+          "x" : "1",
+          "color" : "rgba(0, 0, 0, 1.00)"
+        },
+        "fontNameAttr" : "Champagne & Limousines.ttf"
+      }
+    }
+  }
+}
