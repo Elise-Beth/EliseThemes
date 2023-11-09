@@ -1,0 +1,85 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "condition" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "lowercase",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "76",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[dateordinal] [month] | [condition] | [temperature][temptype] | [batterypercent]%",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "12",
+        "fontName" : "Syntha Nova.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "392",
+          "x" : "300",
+          "width" : "120",
+          "height" : "120"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "Vecy"
+      },
+      "time_label" : {
+        "borderColor" : "rgba(255,255,255,1.0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "30",
+          "x" : "center",
+          "width" : "screen_width",
+          "height" : "300"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "kerning" : "-2",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedtime]",
+        "borderWidth" : 0,
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "120",
+        "fontName" : "Blogger Sans-Bold.ttf",
+        "textShadow" : {
+          "y" : 3,
+          "color" : "rgba(0,0,0,0)",
+          "x" : 0,
+          "radius" : 3
+        },
+        "cornerRadius" : 0,
+        "fontNameAttr" : "none"
+      }
+    }
+  }
+}
