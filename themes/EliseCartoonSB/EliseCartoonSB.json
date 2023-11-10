@@ -2,16 +2,33 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "userInteractionEnabled" : "NO",
       "x" : "0",
       "width" : "screen_width",
-      "height" : "screen_height",
-      "userInteractionEnabled" : "NO"
+      "height" : "screen_height"
     },
     "order" : [
+      "wall",
       "body"
     ],
     "type" : "UIView",
     "children" : {
+      "wall" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "0",
+          "x" : "0",
+          "width" : "screen_width",
+          "height" : "screen_height"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "cartoonsb.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
       "body" : {
         "scale" : "0",
         "borderColor" : "rgba(255,255,255,0)",
@@ -55,9 +72,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -84,7 +101,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "badgeImageX" : "0",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "center",
@@ -97,14 +114,14 @@
                 "bundleID" : "com.hammerandchisel.discord",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImage" : "CarbonBadge.png"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.0)"
               },
               "no move app 3_1" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "badgeImageX" : "0",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "FR~0",
@@ -117,14 +134,14 @@
                 "bundleID" : "com.apple.Preferences",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImage" : "CarbonBadge.png"
+                "badgeImageX" : "0",
+                "labelColor" : "rgba(255, 255, 255, 0.0)"
               },
               "no_move_app_1" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImage" : "CarbonBadge.png",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "0",
@@ -137,15 +154,15 @@
                 "bundleID" : "com.apple.mobilesafari",
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
-                "badgeImageX" : "0",
-                "badgeImage" : "CarbonBadge.png"
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
+                "badgeImageX" : "0"
               }
             },
             "boxShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 0.50)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.50)"
+              "radius" : "1"
             },
             "cornerRadius" : "0",
             "blurColor" : "dark"
@@ -174,9 +191,9 @@
             "fontName" : "winsome.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -203,7 +220,7 @@
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "center",
@@ -217,13 +234,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "no move app 3" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "badgeImage" : "CarbonBadge.png",
+                "labelColor" : "rgba(255, 255, 255, 0.0)",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "FR~0",
@@ -237,13 +254,13 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "badgeImageX" : "0",
-                "labelColor" : "rgba(255, 255, 255, 0.0)"
+                "badgeImage" : "CarbonBadge.png"
               },
               "no_move_app" : {
                 "badgeImageY" : "0",
                 "badgeImageScale" : "0.5",
                 "scale" : "0",
-                "badgeImage" : "CarbonBadge.png",
+                "badgeImageX" : "0",
                 "frame" : {
                   "y" : "FB~5",
                   "x" : "0",
@@ -257,14 +274,14 @@
                 "alpha" : "1",
                 "badgeTextColor" : "rgba(255,255,255,1)",
                 "labelColor" : "rgba(255, 255, 255, 0.0)",
-                "badgeImageX" : "0"
+                "badgeImage" : "CarbonBadge.png"
               }
             },
             "boxShadow" : {
               "y" : "1",
-              "radius" : "1",
+              "color" : "rgba(0, 0, 0, 0.50)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.50)"
+              "radius" : "1"
             },
             "cornerRadius" : "0",
             "blurColor" : "dark"
@@ -293,9 +310,9 @@
             "fontName" : "winsome.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -323,9 +340,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -353,9 +370,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -383,9 +400,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -413,9 +430,9 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           },
@@ -443,18 +460,18 @@
             "fontName" : "grandhotel.otf",
             "textShadow" : {
               "y" : "0.5",
-              "color" : "rgba(0, 0, 0, 0.50)",
+              "radius" : "1",
               "x" : "0",
-              "radius" : "1"
+              "color" : "rgba(0, 0, 0, 0.50)"
             },
             "fontNameAttr" : "none"
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "5",
         "blurColor" : "dark"
