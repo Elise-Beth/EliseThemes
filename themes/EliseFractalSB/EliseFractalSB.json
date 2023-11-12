@@ -1,0 +1,348 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO"
+    },
+    "order" : [
+      "date",
+      "time_",
+      "cond",
+      "icon",
+      "battery",
+      "apps1",
+      "apps2",
+      "battery_percent"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "apps1" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~30",
+          "x" : "30",
+          "width" : "125",
+          "height" : "45"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "no move app 2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "center",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilesafari",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImage" : "CarbonBadge.png"
+          },
+          "no move app 3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImage" : "CarbonBadge.png",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "FR~0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.Preferences",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "0"
+          },
+          "no_move_app" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.tigisoftware.Filza",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "CarbonBadge.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      },
+      "date" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "600",
+          "x" : "30",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day] [month] [date]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "28",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "time_" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "30",
+          "x" : "30",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "It's [textTime] [devicename]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "28",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "battery" : {
+        "radius" : "2",
+        "lowColor" : "rgba(173, 173, 173, 1.00)",
+        "backColor" : "rgba(0,0,0,1.0)",
+        "frame" : {
+          "y" : "FB~25",
+          "x" : "center",
+          "width" : "math(screen_width-60)",
+          "height" : "2"
+        },
+        "innerColor" : "rgba(255, 255, 255, 1.00)",
+        "type" : "BatteryBar",
+        "midColor" : "rgba(214, 214, 214, 1.00)",
+        "gradientImage" : "none"
+      },
+      "battery_percent" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "FB~35",
+          "x" : "center",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[batterypercent]%",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "28",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "apps2" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "FB~30",
+          "x" : "FR~30",
+          "width" : "125",
+          "height" : "45"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "no move app 2_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImage" : "CarbonBadge.png",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "center",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.hammerandchisel.discord",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImageX" : "0"
+          },
+          "no move app 3_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "badgeImageX" : "0",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "FR~0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "ph.telegra.Telegraph",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "badgeImage" : "CarbonBadge.png"
+          },
+          "no_move_app_1" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "0.5",
+            "scale" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.0)",
+            "frame" : {
+              "y" : "FB~5",
+              "x" : "0",
+              "width" : "35",
+              "height" : "35"
+            },
+            "badgeBGColor" : "rgba(255,0,0,1)",
+            "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.atebits.Tweetie2",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255,255,255,1)",
+            "badgeImageX" : "0",
+            "badgeImage" : "CarbonBadge.png"
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0, 0, 0, 1.0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "0",
+        "blurColor" : "dark"
+      },
+      "cond" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "capitalize",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "630",
+          "x" : "30",
+          "width" : "screen_width",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[condition] [temperature][temptype]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "28",
+        "fontName" : "Dorsa-Regular.ttf",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "icon" : {
+        "frame" : {
+          "y" : "618",
+          "x" : "FR~30",
+          "width" : "40",
+          "height" : "40"
+        },
+        "forecast" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "OutlinedW"
+      }
+    }
+  }
+}
